@@ -1,9 +1,8 @@
 .mainheading{
         text-align: center;
+        Padding:10px;
+        background-color:#00ace6;
+        color:White;
+    
 }
-div { 
-    height: 100px;
-    width:100px;
-    padding: 10px;
-    margin: 10px;
-}
+
