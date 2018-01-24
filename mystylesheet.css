@@ -1,4 +1,5 @@
 .mainheading{
+        font-family: Arial;
         text-align: center;
         Padding:10px;
         background-color:#00ace6;
@@ -7,9 +8,6 @@
 p{text-align: center;
     }
 li{text-align: center;
-}
-.tab{
-        color:#828a99;
 }
 
 
