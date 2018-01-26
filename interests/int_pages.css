@@ -2,7 +2,10 @@
     background-color: rgb(238, 0, 90);
 }
 #section2{
-    background-color: rgb(44, 62, 80);
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/0e/9a/e3/1d/freedom-tower.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    
 }
 #section3{
     background-color: rgb(51, 153, 204);
@@ -10,4 +13,5 @@
 .section{
     text-align:center;
     color:white;
+    font-size:25px;
 }
