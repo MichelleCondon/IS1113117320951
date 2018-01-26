@@ -16,7 +16,9 @@ body {
     background-repeat:no-repeat;
     background-size:cover;
 }
-
+a {
+    font-size:30px;
+}
 
 
 
