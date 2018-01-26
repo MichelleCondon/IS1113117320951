@@ -1,5 +1,8 @@
 #section1{
-    background-color: rgb(238, 0, 90);
+   background-image: url("http://www.savvymom.ca/wp-content/uploads/fly-images/101173/travel-air-plane-690x400-c.jpg");
+   background-repeat: no-repeat;
+   background-size:cover;
+   color:rgb(3, 22, 53);
 }
 #section2{
     background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/0e/9a/e3/1d/freedom-tower.jpg");
