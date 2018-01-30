@@ -1,23 +1,49 @@
 #section1{
-   background-image: url("https://www.travelingwithmj.com/wp-content/uploads/2009/12/Airplane-wing-taken-out-the-window.jpg");
+   background-image: url("http://lunagemme.com/wp-content/uploads/2014/03/fly3.jpg");
    background-repeat: no-repeat;
    background-position:center;
-   color:white;
-   height:100%;
-   width:100%;
+   
 }
 #section2{
-    background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/0e/9a/e3/1d/freedom-tower.jpg");
+    background-image: url("https://lonelyplanetimages.imgix.net/mastheads/GettyImages-538096543_medium.jpg?sharp=10&vib=20&w=1200");
     background-repeat:no-repeat;
-    background-size:cover;
+    background-position:center;
     
 }
 #section3{
-    background-color: rgb(51, 153, 204);
+    background-image: url("http://www.ireland-now.com/ireland-photos/the-weather-in-ireland-cliffs-of-moher-at-sunset-co-clare-ireland-380-7843.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
 }
 .section{
     text-align:center;
-    color:white;
+    color:#e3edcb
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ;
     font-size:25px;
 }
+
 
