@@ -1,8 +1,10 @@
 #section1{
    background-image: url("https://www.travelingwithmj.com/wp-content/uploads/2009/12/Airplane-wing-taken-out-the-window.jpg");
    background-repeat: no-repeat;
-   background-size:cover;
+   background-position:center;
    color:white;
+   height:100%;
+   width:100%;
 }
 #section2{
     background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/0e/9a/e3/1d/freedom-tower.jpg");
