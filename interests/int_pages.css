@@ -1,48 +1,36 @@
 #section1{
-   background-image: url("http://lunagemme.com/wp-content/uploads/2014/03/fly3.jpg");
+   background-image: url("https://cdn.canoekayak.com/uploads/2015/05/Screen-Shot-2015-05-08-at-3.42.20-PM.png");
    background-repeat: no-repeat;
    background-position:center;
+   background-size:contain;
+   background-color:#569fa3;
+   border-style:solid;
+   border-color:Black;
    
 }
 #section2{
-    background-image: url("https://lonelyplanetimages.imgix.net/mastheads/GettyImages-538096543_medium.jpg?sharp=10&vib=20&w=1200");
+    background-image: url("https://d0bb9bb29a4a152db5cb-2fd7b88453b021537812277c8c433fcb.ssl.cf1.rackcdn.com/844/6/large.jpg");
     background-repeat:no-repeat;
     background-position:center;
+    background-size:contain;
+    background-color:#3c5ebc;
+    border-style:solid;
+    border-color:black;
     
 }
 #section3{
-    background-image: url("http://www.ireland-now.com/ireland-photos/the-weather-in-ireland-cliffs-of-moher-at-sunset-co-clare-ireland-380-7843.jpg");
+    background-image: url("https://www.roughguides.com/wp-content/uploads/2016/02/hiker-984083_1920-660x420.jpg");
     background-repeat:no-repeat;
     background-position:center;
+    background-size:contain;
+    background-color:#124c4b;
+    border-style:solid;
+    border-color:black;
+    
 }
 .section{
     text-align:center;
-    color:#e3edcb
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    ;
+    color:#e3edcb;
     font-size:25px;
 }
 
