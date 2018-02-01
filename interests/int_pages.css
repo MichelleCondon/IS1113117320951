@@ -1,5 +1,5 @@
 #section1{
-   background-image: url("https://cdn.canoekayak.com/uploads/2015/05/Screen-Shot-2015-05-08-at-3.42.20-PM.png");
+   background-image: url("http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/51/v6/p051v6vn.jpg");
    background-repeat: no-repeat;
    background-position:center;
    background-size:contain;
@@ -9,7 +9,7 @@
    
 }
 #section2{
-    background-image: url("https://d0bb9bb29a4a152db5cb-2fd7b88453b021537812277c8c433fcb.ssl.cf1.rackcdn.com/844/6/large.jpg");
+    background-image: url("https://media.timeout.com/images/103444978/image.jpg");
     background-repeat:no-repeat;
     background-position:center;
     background-size:contain;
@@ -19,7 +19,7 @@
     
 }
 #section3{
-    background-image: url("https://www.roughguides.com/wp-content/uploads/2016/02/hiker-984083_1920-660x420.jpg");
+    background-image: url("https://www.rei.com/adventures/assets/adventures/images/trip/core/northamerica/zny_hero");
     background-repeat:no-repeat;
     background-position:center;
     background-size:contain;
@@ -29,9 +29,10 @@
     
 }
 .section{
-    text-align:center;
-    color:#e3edcb;
+    text-align:left;
+    color:black;
     font-size:25px;
 }
+
 
 
