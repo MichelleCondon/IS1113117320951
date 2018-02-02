@@ -1,12 +1,12 @@
 #section1{
-   background-image: url("http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/51/v6/p051v6vn.jpg");
+   background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Adventure-Background-2560x1440-PIC-WPC005116.jpg");
    background-repeat: no-repeat;
    background-position:center;
    background-size:contain;
    background-color:#569fa3;
    border-style:solid;
    border-color:Black;
-   
+   text-align:center;
 }
 #section2{
     background-image: url("https://media.timeout.com/images/103444978/image.jpg");
@@ -16,6 +16,7 @@
     background-color:#3c5ebc;
     border-style:solid;
     border-color:black;
+    text-align:left;
     
 }
 #section3{
@@ -26,10 +27,10 @@
     background-color:#124c4b;
     border-style:solid;
     border-color:black;
+    text-align:center;
     
 }
 .section{
-    text-align:left;
     color:black;
     font-size:25px;
 }
