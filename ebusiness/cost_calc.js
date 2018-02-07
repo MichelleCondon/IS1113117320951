@@ -5,17 +5,15 @@ function calcSub()
 {
     var argSubTotal; //Creates Variable
     
-    if(document.getElementById('salesforce').checked)
+    if (document.getElementById('Salesforce').checked)
     {
         argSubTotal = 100; //If salesforce is checked the variable = 100
     }
-    else
-    {
+    else {
         argSubTotal = 300; //Other option has a value of 300
     }
     display(argSubTotal); //Passing variable in the display function
 }
-
 function display(parm1) //parm1 equals value of argSubTotal
 {
     
