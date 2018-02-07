@@ -6,13 +6,21 @@
         <!--JQuery-->
         <script src="https://ajax.googleleapis/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="text/javascript" src="cost_calc.js"></script>
+    
+    <style>
+header{
+    background-color:#00ace6;
+    color:white;
+}
+</style>
     </head>
     
     
     <body>
-        
-        <h4>Select a Product</h4>
-        
+    <center>
+        <header>
+        <h1>Select a Product</h1>
+        </header>
         <br/>
         
         <form method="POST" action="Ebus2.php">
@@ -38,7 +46,7 @@
            <br/>
            <label for="Gmail">
                <input type="radio" id="Gmail" name="product"  checked onClick="disablebtnProceed()"/>
-                Gmail Services @ $100
+                Gmail @ $400
            </label>
            <br/>
            <br/>
@@ -66,6 +74,6 @@
            <br/>
            <button onClick="calcSub()">Calculate Cost</button>
            <a role="button" href="Ebus1.php">Clear Choice</a>
-           
+        </center>
     </body>
 </html>

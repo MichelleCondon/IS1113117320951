@@ -20,7 +20,7 @@ function display(parm1) //parm1 equals value of argSubTotal
     document.getElementById("subtotal").value = parm1;
     document.getElementById("total").value = parm1;
     
-    enablebtnProceed();
+     enablebtnProceed();
 }
 
 function enablebtnProceed()
