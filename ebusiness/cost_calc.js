@@ -13,7 +13,7 @@ function calcSub()
     {
         argSubTotal = 300; //Other option has a value of 300
     }
-    display(argSubTotal) //Passing variable in the display function
+    display(argSubTotal); //Passing variable in the display function
 }
 
 function display(parm1) //parm1 equals value of argSubTotal
