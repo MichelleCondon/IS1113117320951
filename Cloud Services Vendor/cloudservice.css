@@ -22,7 +22,7 @@
 .button{
     color:white;
     background-color:#2791b5;
-    width:60px;
+    width:65px;
     height:30px;
     float:left;
 }
@@ -32,4 +32,21 @@
     background-color:#2791b5;
     width:65px;
     height:30px;
+}
+.image{
+    height:350px;
+    width:400px;
+}
+body {
+    background-image: url("http://eskipaper.com/images/blurred-background-1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.image2{
+    width:450px;
+    height:300px;
+}
+.button2{
+    height:65px;
+    width:40px;
 }

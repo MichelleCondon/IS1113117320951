@@ -2,27 +2,11 @@
 <html>
     <head>
         <title>Select Product</title>
-        
+        <link rel="stylesheet" href="Ebus.css" type="text/css"/>
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
         <!--Adding colour to header and adding a background image-->
-        <style>
-          .heading{
-        font-family: Arial;
-        text-align: center;
-        Padding:10px;
-        background-color:#00ace6;
-        color:White;
-          }
-          .body {
-      background-image: url("http://eskipaper.com/images/blurred-background-1.jpg");
-      background-repeat:no-repeat;
-      background-size:cover;
-      font-size:25px;
-          }
-        </style>
-
     </head>
     
     <body class="body">
@@ -99,14 +83,14 @@
               <br/>
               <br/>
               
-              <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+              <button type= "submit" id="btnProceed" class="cart" disabled>Add to Shopping Cart</button>
             
             </form>
             
             <br/>
             <!--Buttons to calculate and navigate-->
-            <button onClick="calcSub()">Calculate Cost</button>
-            <a href="Ebus1.php"><button class ="button">Clear Choice</button></a>
+            <button onClick="calcSub()" class="Calculate">Calculate Cost</button>
+            <a role="button" href="Ebus1.php" class="Clear">Clear Choice</a>
     </center>
     </body>
 </html>

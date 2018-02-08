@@ -1,14 +1,48 @@
 .button{
     color:white;
-    background-color:#2791b5;
-    width:60px;
-    height:30px;
-    float:left;
+    background-color:#16751b;
+    width:150px;
+    height:40px;
+    border-radius:10px;
+    transition: .5s ease;
+    
 }
-.button1{
-    float:right;
+.button2{
     color:white;
-    background-color:#2791b5;
-    width:65px;
-    height:30px;
+    background-color:#dbb52b;
+    width:100px;
+    height:35px;
+    border-radius:10px;
+    
+    transition: .5s ease;
+    
+}
+.button3{
+    color:Red;
+    background-color:white;
+    width:100px;
+    height:35px;
+    text-align:center;
+    border-radius:10px;
+    
+    transition: .5s ease;
+    
+}
+ .heading{
+    font-family: Arial;
+    text-align: center;
+    Padding:10px;
+    background-color:#00ace6;
+    color:White;
+}
+  .body {
+     background-image: url("http://eskipaper.com/images/blurred-background-1.jpg");
+     background-repeat:no-repeat;
+     background-size:cover;
+     font-size:25px;
+}
+.cart:{
+text-align:center;
+color:white;
+background-color:green;
 }
