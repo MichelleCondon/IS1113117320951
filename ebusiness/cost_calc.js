@@ -31,45 +31,22 @@ function calcSub()// Creating a function to calculate
         argVat = (argSubTotal - argDiscount) * 0.10;
         argTotal = (argSubTotal - argDiscount) + argVat;
     }
-    display(argSubTotal);
-    show(argDiscount);
-    view(argVat);
-    determine(argTotal);
+    display(argSubTotal,argDiscount,argVat,argTotal);
     //Passing variable in the display function
 }
-
-function display(parm1) //parm1 equals value of argSubTotal
+function calcDisVatTotal(){
+    
+}
+function display(parm1,parm2,parm3,parm4) //parm1 equals value of argSubTotal
 {
     
     document.getElementById("subtotal").value = parm1;
-    document.getElementById("total").value = parm1;
+    document.getElementById("discount").value = parm2;
+    document.getElementById("vat").value = parm3;
+    document.getElementById("total").value = parm4;
     
     enablebtnProceed();
 }
-function show(parm1) //parm1 equals value of argSubTotal
-{
-    
-    document.getElementById("discount").value = parm1;
-    
-    enablebtnProceed();
-}
-
-function view(parm1) //parm1 equals value of argSubTotal
-{
-    
-    document.getElementById("vat").value = parm1;
-    
-    enablebtnProceed();
-}
-
-function determine(parm1) //parm1 equals value of argSubTotal
-{
-    
-    document.getElementById("total").value = parm1;
-    
-    enablebtnProceed();
-}
-
 
 function enablebtnProceed()
 {

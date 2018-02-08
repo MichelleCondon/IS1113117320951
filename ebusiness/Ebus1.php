@@ -6,18 +6,35 @@
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
+        <!--Adding colour to header and adding a background image-->
+        <style>
+          .heading{
+        font-family: Arial;
+        text-align: center;
+        Padding:10px;
+        background-color:#00ace6;
+        color:White;
+          }
+          .body {
+      background-image: url("http://eskipaper.com/images/blurred-background-1.jpg");
+      background-repeat:no-repeat;
+      background-size:cover;
+      font-size:25px;
+          }
+        </style>
 
     </head>
     
-    <body>
+    <body class="body">
         <center>
         <header>
-            <h4>Select a Product</h4>
+            <!--Page Heading-->
+            <h4 class="heading">Select a Product</h4>
             </header>
             <br/>
             
             <form method="POST" action="Ebus2.php">
-              
+              <!--Labels for products-->
               <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
                 SalesForce @ $100
@@ -87,9 +104,9 @@
             </form>
             
             <br/>
+            <!--Buttons to calculate and navigate-->
             <button onClick="calcSub()">Calculate Cost</button>
-            <a role="button" href="Ebus1.php">Clear Choice</a>
-            
+            <a href="Ebus1.php"><button class ="button">Clear Choice</button></a>
     </center>
     </body>
 </html>
