@@ -34,6 +34,11 @@
     color:black;
     font-size:25px;
 }
+.body {
+    background-image: url("http://eskipaper.com/images/blurred-background-1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
 
 
 
