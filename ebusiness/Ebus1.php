@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <!--Page Title-->
         <title>Select Product</title>
         <link rel="stylesheet" href="Ebus.css" type="text/css"/>
         <!--jQuery-->
@@ -19,6 +20,7 @@
             
             <form method="POST" action="Ebus2.php">
               <!--Labels for products-->
+              <!--Label for Salesforce-->
               <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
                 SalesForce @ $100
@@ -26,7 +28,7 @@
               
               <br/>
               <br/>
-              
+              <!--Cloud 9 label-->
               <label for="cloud 9">
                   <input type="radio" id="cloud 9" name="product" checked onClick="disablebtnProceed()"/>
                   Cloud 9 @ $200
@@ -34,7 +36,7 @@
               
               <br/>
               <br/>
-              
+              <!--Amazon Web Services label-->
               <label for="aws">
                 <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
                 Amazon Web Services @ $300
@@ -42,7 +44,7 @@
               
               <br/>
               <br/>
-              
+              <!--Gmail Label-->
               <label for="gmail">
                   <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
                   Gmail @ $400
@@ -50,7 +52,7 @@
               
               <br/>
               <br/>
-              
+              <!--Subtotal Label-->
               <label for="subtotal">
                 Sub Total
                 <input type="text" id="subtotal" value="0.00" readonly/>
@@ -58,7 +60,7 @@
               
               <br/>
               <br/>
-              
+              <!--Discount Label-->
               <label for="discount">
                   Discount @ 5%
                   <input type="text" id="discount" value=0.00 readonly/>
@@ -66,7 +68,7 @@
               
               <br/>
               <br/>
-              
+              <!--Vat Label-->
               <label for ="vat">
                   Vat @ 10%
                   <input type="text" id=vat value=0.00 readonly/>
@@ -74,7 +76,7 @@
               
               <br/>
               <br/>
-              
+              <!--Total Label-->
               <label for="total">
                 Total
                 <input type="text" id="total" value="0.00" readonly/>
@@ -82,7 +84,7 @@
     
               <br/>
               <br/>
-              
+              <!--Add to shopping cart button-->
               <button type= "submit" id="btnProceed" class="cart" disabled>Add to Shopping Cart</button>
             
             </form>
