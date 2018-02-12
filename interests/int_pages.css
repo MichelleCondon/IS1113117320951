@@ -34,11 +34,63 @@
     color:black;
     font-size:25px;
 }
-.body {
+/*adds a plain background image*/
+body {
     background-image: url("http://eskipaper.com/images/blurred-background-1.jpg");
     background-repeat:no-repeat;
     background-size:cover;
 }
-
+/*centers the image and adjusts the height and width*/
+.soccerimage {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:10%;
+    height:5%;
+}
+/*centers the image and adjusts the height and width*/
+.spotifyimage {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:10%;
+    height:2%;
+}
+/*centers the image and adjusts the height and width*/
+.bookimage {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:10%;
+    height:5%;
+}
+/*centers the text in the paragraphs and adjusts font size*/
+p{text-align: center;
+font-size:25px;
+    }
+/*centers the text in lists and adjusts the font size*/
+li{text-align: center;
+font-size:25px;
+}
+/*underlining headings*/
+h2{
+    text-decoration:underline;
+}
+/*button design and colour*/
+.button{
+    color:white;
+    background-color:#2791b5;
+    width:65px;
+    height:30px;
+    float:left;
+}
+/*button design and colour*/
+.button1{
+    float:right;
+    color:white;
+    background-color:#2791b5;
+    width:65px;
+    height:30px;
+}
 
 

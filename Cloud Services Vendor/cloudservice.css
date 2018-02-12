@@ -19,6 +19,7 @@
         background-color:#00ace6;
         color:White;
 }
+/*changing button size colour and position*/
 .button{
     color:white;
     background-color:#2791b5;
@@ -26,6 +27,7 @@
     height:30px;
     float:left;
 }
+/*changing button size colour and position*/
 .button1{
     float:right;
     color:white;
@@ -37,10 +39,12 @@
     height:350px;
     width:400px;
 }
+/*adding a plain background*/
 body {
     background-image: url("http://eskipaper.com/images/blurred-background-1.jpg");
     background-repeat:no-repeat;
     background-size:cover;
+    font-size:30px;
 }
 .image2{
     width:450px;
