@@ -39,16 +39,19 @@ function calcDisVatTotal(parmSubTotal){
         discountAmt = argSubTotal * 0.05;
         vatAmt = (argSubTotal - discountAmt) * 0.10;
         totalprice = (argSubTotal - discountAmt) + vatAmt;
+        return totalPrice
     } else if(document.getElementById('cloud 9').checked)
     {
         discountAmt = argSubTotal * 0.05;
         vatAmt = (argSubTotal - discountAmt) * 0.10;
         totalprice = (argSubTotal - discountAmt) + vatAmt;
+        return totalprice
     } else if(document.getElementById('aws').checked)
     {
         discountAmt = argSubTotal * 0.05;
         vatAmt = (argSubTotal - discountAmt) * 0.10;
         totalprice = (argSubTotal - discountAmt) + vatAmt;
+        return totalprice
     } else {
         discountAmt = argSubTotal * 0.05;
         vatAmt = (argSubTotal - discountAmt) * 0.10;

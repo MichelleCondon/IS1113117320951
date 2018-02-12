@@ -1,3 +1,4 @@
+/*adds a blue background to the heading, adjusts text colour and font*/
 .mainheading{
         font-family: Arial;
         text-align: center;
@@ -5,25 +6,27 @@
         background-color:#00ace6;
         color:White;
     }
+/*centers the text in the paragraphs and adjusts font size*/
 p{text-align: center;
 font-size:25px;
     }
+/*centers the text in lists and adjusts the font size*/
 li{text-align: center;
 font-size:25px;
 }
+/*Adds a plain background image*/
 body {
     background-image: url("http://eskipaper.com/images/blurred-background-1.jpg");
     background-repeat:no-repeat;
     background-size:cover;
 }
-a {
-    font-size:30px;
-}
-.center {
+/*centers the image and adjusts the height and width*/
+.businessimage {
     display:block;
     margin-left:auto;
     margin-right:auto;
-    width:10%;
+    width:30%;
+    height:15%;
 }
 
 
