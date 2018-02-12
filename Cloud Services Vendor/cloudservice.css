@@ -54,3 +54,10 @@ body {
     height:65px;
     width:40px;
 }
+/*centers the image and adjusts the height and width*/
+.cloudimage {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:45%;
+}
