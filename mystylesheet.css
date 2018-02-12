@@ -19,6 +19,7 @@ body {
     background-image: url("http://eskipaper.com/images/blurred-background-1.jpg");
     background-repeat:no-repeat;
     background-size:cover;
+    font-size:25px;
 }
 /*centers the image and adjusts the height and width*/
 .businessimage {
@@ -28,6 +29,80 @@ body {
     width:30%;
     height:15%;
 }
+/*centers the image and adjusts the height and width*/
+.cvimage {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:18%;
+    height:10%;
+}
+/*centers the image and adjusts the height and width*/
+.interestimage {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:18%;
+    height:10%;
+}
+/*centers the image and adjusts the height and width*/
+.cloudservicesimage {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:18%;
+    height:10%;
+}
+/*centers the image and adjusts the height and width*/
+.ebusimage {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:18%;
+    height:10%;
+}
+/*centers the image and adjusts the height and width*/
+.bgcrest {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:18%;
+    height:10%;
+}
+/*centers the image and adjusts the height and width*/
+.lfcrest {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:18%;
+    height:10%;
+}
+/*centers the image and adjusts the height and width*/
+.ucccrest {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:18%;
+    height:10%;
+}
+/*centers the image and adjusts the height and width*/
+.skullimage {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:18%;
+    height:10%;
+}
+/*centers the image and adjusts the height and width*/
+.centraimage {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:18%;
+    height:10%;
+}
+
+
 
 
 

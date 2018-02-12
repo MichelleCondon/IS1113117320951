@@ -1,14 +1,10 @@
 /* global $ */
-
+var argSubtotal;
+var argDiscount;
+var argVat
+var argTotal
 function calcSub(argSubTotal)// Creating a function to calculate
 {
-    var argSubTotal;
-    var argDiscount;
-    var argVat;
-    var argTotal;
-    var discountAmt;
-    var vatAmt;
-    var totalprice;
     
     if(document.getElementById('salesforce').checked)
     {
@@ -30,41 +26,39 @@ function calcSub(argSubTotal)// Creating a function to calculate
   calcDisVatTotal(argSubTotal)
 }
 function calcDisVatTotal(parmSubTotal){
-    var discountAmt;
-    var vatAmt;
-    var totalprice;
-    var argSubTotal;
      if(document.getElementById('salesforce').checked)
     {
-        discountAmt = argSubTotal * 0.05;
-        vatAmt = (argSubTotal - discountAmt) * 0.10;
-        totalprice = (argSubTotal - discountAmt) + vatAmt;
-        return totalPrice
+        argDiscount = argSubTotal * 0.05;
+        return argDiscount
+        argVat = (argSubTotal - argDiscount) * 0.10;
+        return argVat
+        argTotal = (argSubTotal - argDiscount) + argVat;
+        return argTotal
+        
     } else if(document.getElementById('cloud 9').checked)
     {
-        discountAmt = argSubTotal * 0.05;
-        vatAmt = (argSubTotal - discountAmt) * 0.10;
-        totalprice = (argSubTotal - discountAmt) + vatAmt;
-        return totalprice
+        argDiscount = argSubTotal * 0.05;
+        argVat = (argSubTotal - argDiscount) * 0.10;
+        argTotal = (argSubTotal - argDiscount) + argVat;
+        
     } else if(document.getElementById('aws').checked)
     {
-        discountAmt = argSubTotal * 0.05;
-        vatAmt = (argSubTotal - discountAmt) * 0.10;
-        totalprice = (argSubTotal - discountAmt) + vatAmt;
-        return totalprice
+        argDiscount = argSubTotal * 0.05;
+        argVat = (argSubTotal - argDiscount) * 0.10;
+        argTotal = (argSubTotal - argDiscount) + argVat;
     } else {
-        discountAmt = argSubTotal * 0.05;
-        vatAmt = (argSubTotal - discountAmt) * 0.10;
-        totalprice = (argSubTotal - discountAmt) + vatAmt;
-        display(subTotal,discountAmt,vatAmt,totalprice)
+        argDiscount = argSubTotal * 0.05;
+        argVat = (argSubTotal - argDiscount) * 0.10;
+        argTotal = (argSubTotal - argDiscount) + argVat;
+        display(argSubTotal)
 }
 function display(parm1,parm2,parm3,parm4) //parm1 equals value of argSubTotal
 {
     
     document.getElementById("subtotal").value = parm1;
-    document.getElementById("discountAmt").value = parm2;
-    document.getElementById("vatAmt").value = parm3;
-    document.getElementById("totalprice").value = parm4;
+    document.getElementById("discount").value = parm2;
+    document.getElementById("vat").value = parm3;
+    document.getElementById("total").value = parm4;
     
     enablebtnProceed();
 }
