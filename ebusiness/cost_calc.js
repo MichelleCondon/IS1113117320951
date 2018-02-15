@@ -1,10 +1,10 @@
 /* global $ */
-var argSubtotal;
-var argDiscount;
-var argVat
-var argTotal
 function calcSub(argSubTotal)// Creating a function to calculate
 {
+    var argSubtotal;
+    var argDiscount;
+    var argVat;
+    var argTotal;
     
     if(document.getElementById('salesforce').checked)
     {
@@ -29,11 +29,11 @@ function calcDisVatTotal(parmSubTotal){
      if(document.getElementById('salesforce').checked)
     {
         argDiscount = argSubTotal * 0.05;
-        return argDiscount
+       
         argVat = (argSubTotal - argDiscount) * 0.10;
-        return argVat
+       
         argTotal = (argSubTotal - argDiscount) + argVat;
-        return argTotal
+        
         
     } else if(document.getElementById('cloud 9').checked)
     {
@@ -50,17 +50,33 @@ function calcDisVatTotal(parmSubTotal){
         argDiscount = argSubTotal * 0.05;
         argVat = (argSubTotal - argDiscount) * 0.10;
         argTotal = (argSubTotal - argDiscount) + argVat;
-        display(argSubTotal)
+        
+        display(argSubTotal);
+        show(argDiscount);
+        see(argVat);
+        have(argTotal);
 }
-function display(parm1,parm2,parm3,parm4) //parm1 equals value of argSubTotal
+function display(parm1) //parm1 equals value of argSubTotal
 {
     
     document.getElementById("subtotal").value = parm1;
-    document.getElementById("discount").value = parm2;
-    document.getElementById("vat").value = parm3;
-    document.getElementById("total").value = parm4;
     
     enablebtnProceed();
+}
+function show(parm2)
+{
+    document.getElementById("discount").value = parm2;
+     enablebtnProceed();
+}
+function see(parm3)
+{
+    document.getElementById("vat").value = parm3;
+     enablebtnProceed();
+}
+function have(parm4)
+{
+     document.getElementById("total").value = parm4;
+      enablebtnProceed();
 }
 function enablebtnProceed()
 {
