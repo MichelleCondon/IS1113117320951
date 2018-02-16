@@ -5,6 +5,14 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+body {
+     background-image: url("http://eskipaper.com/images/blurred-background-1.jpg");
+     background-repeat:no-repeat;
+     background-size:cover;
+     font-size:25px;
+}
+        </style>
         <title>Receipt</title>
     </head>
     <body>

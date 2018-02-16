@@ -6,6 +6,17 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+body {
+     background-image: url("http://eskipaper.com/images/blurred-background-1.jpg");
+     background-repeat:no-repeat;
+     background-size:cover;
+     font-size:25px;
+}
+        </style>
+         <!--Page Title-->
+        <title>Payment</title>
+        <link rel="stylesheet" href="Ebus.css" type="text/css"/>
          <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
