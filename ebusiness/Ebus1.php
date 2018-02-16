@@ -99,7 +99,7 @@ session_start();
             <button onClick="calcSub()" class="Calculate">Calculate Cost</button>
             <a role="button" href="Ebus1.php" class="Clear">Clear Choice</a>
             
-            <? php
+            <?php
             //Set session variables
             $_SESSION["total"] - $_POST["total"]
             ?>

@@ -36,26 +36,33 @@ body {
               <br/>
               
               <label for="name">Name:</label>
-              <input type="text" name="username" placeholder="Name" maxlength="20" required=''>
+              <input type="text" name="username" placeholder="Name" maxlength="20" name="name" required=''>
               
               <br/>
               <label for="email">Email:</label>
               <input type="email" name="useremail" placeholder="Email" required=''>
               <br/>
-              <button onClick="validateDetails()" class="determine">Validate</button>
-            </form>
+             
+     
             
             <br/>
             <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
             
             </div>
+                   </form>
             
+            <button onClick="validateDetails()" class="determine">Validate</button>
+                        
             <script type="text/javascript" src="ebus2_validator.js"></script>
-                
-            <? php
+           
+            <?php
             //Set session variables
-            $_SESSION["total"] - $_POST["total"]
+            $_SESSION["name"]= $_POST["name"];
+            
+            $_SESSION["total"]= $_POST["total"];
             ?>
-    </center>
+            
+           
+   
     </body>
 </html>

@@ -16,11 +16,15 @@ body {
         <title>Receipt</title>
     </head>
     <body>
+        <center>
         <h4>Receipt</h4>
         
-        <? php
+        <?php
         //Echo session variables that were set on previous pages
-        echo "Total is ".$_SESSION["total"].".";
+        echo "Name" . $_SESSION["name"] . " . ";
+        echo "Total Price " . $_SESSION["total"] . " . ";
+    
         ?>
+        </center>
     </body>
 </html>
