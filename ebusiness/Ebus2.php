@@ -1,49 +1,43 @@
+<?php 
+//Start the session
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
-        <!--Page title-->
-        <title>Enter Details</title>
-        
-        <!--jQuery-->
+         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     
     <body>
-    <center>
+        <center>
         <header>
+            <div class ="formpage">
             <h4>Please enter your payment details</h4>
             </header>
             <br/>
             
-            <form action="Ebus3.php"  method="POST">
-              
-              <label for="name">Name:</label>
-                <input type="text" id="name" placeholder="Name" maxlength="30">
-               <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
-              
-            </form>
-            <form action="Ebus3.php"  method="POST">
+            <form action="Ebus3.php"  METHOD="POST">
               
               <label for="user_pin">PIN</label>
                 <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
                <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
               
-            </form>
-            <form action="Ebus3.php"  method="POST">
-              
-              <label for="email">Email</label>
-                <input type="text" id="email" placeholder="Email" maxlength="50">
-               <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
-              
+              <label for="name">Name:</label>
             </form>
             
             <br/>
-            <button onClick="validateDetails"Validate</button>
+            <button onClick="validateDetails()" class="determine">Validate</button>
             
-            
+            </div>
             
             <script type="text/javascript" src="ebus2_validator.js"></script>
                 
+            <? php
+            //Set session variables
+            $_SESSION["total"] - $_POST["total"]
+            ?>
     </center>
     </body>
 </html>

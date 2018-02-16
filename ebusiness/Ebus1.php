@@ -1,3 +1,8 @@
+<?php 
+//Start the session
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -62,7 +67,7 @@
               <br/>
               <!--Discount Label-->
               <label for="discount">
-                  Discount @ 5%
+                  Discount @ 5%:
                   <input type="text" id="discount" value=0.00 readonly/>
               </label>
               
@@ -70,7 +75,7 @@
               <br/>
               <!--Vat Label-->
               <label for ="vat">
-                  Vat @ 10%
+                  Vat @ 10%:
                   <input type="text" id=vat value=0.00 readonly/>
               </label>
               
@@ -78,8 +83,8 @@
               <br/>
               <!--Total Label-->
               <label for="total">
-                Total
-                <input type="text" id="total" value="0.00" readonly/>
+                Total:
+                <input type="text" id="total" value="0.00" name="total" readonly/>
               </label>
     
               <br/>
@@ -93,6 +98,11 @@
             <!--Buttons to calculate and navigate-->
             <button onClick="calcSub()" class="Calculate">Calculate Cost</button>
             <a role="button" href="Ebus1.php" class="Clear">Clear Choice</a>
+            
+            <? php
+            //Set session variables
+            $_SESSION["total"] - $_POST["total"]
+            ?>
     </center>
     </body>
 </html>
