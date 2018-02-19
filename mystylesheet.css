@@ -101,6 +101,14 @@ body {
     width:18%;
     height:10%;
 }
+/*centers the image and adjusts the height and width*/
+.githubimage {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:12%;
+    height:10%;
+}
 
 
 

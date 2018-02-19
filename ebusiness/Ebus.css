@@ -41,10 +41,17 @@
      background-size:cover;
      font-size:25px;
 }
-.cart:{
-text-align:center;
-color:white;
-background-color:green;
+    .cart{
+    text-align:center;
+    color:white;
+    background-color:green;
+    border-radius: 8px;
+}
+    .Calculate{
+    text-align:center;
+    color:white;
+    background-color:green;
+    border-radius: 8px;
 }
 .header{
                 color:white;
