@@ -36,11 +36,11 @@ body {
               <br/>
               
               <label for="name">Name:</label>
-              <input type="text" name="username" placeholder="Name" maxlength="20" required=''>
+              <input type="text" name="name" placeholder="Name" maxlength="20" required=''>
               
               <br/>
               <label for="email">Email:</label>
-              <input type="email" name="useremail" placeholder="Email" required=''>
+              <input type="email" name="email" placeholder="Email" required=''>
               <br/>
              
      
@@ -57,8 +57,7 @@ body {
            
             <?php
             //Set session variables
-            $_SESSION["username"]= $_POST["username"];
-            $_SESSION["useremail"]= $_POST["useremail"];
+           
             $_SESSION["total"]= $_POST["total"];
             ?>
             

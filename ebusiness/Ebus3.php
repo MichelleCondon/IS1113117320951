@@ -17,9 +17,14 @@ session_start();
         <h4>Purchase Receipt</h4>
         
         <?php
+         $_SESSION["name"]= $_POST["name"];
+            $_SESSION["email"]= $_POST["email"];
+        ?>
+        
+        <?php
         //Echo session variables that were set on previous pages
-        echo "Name:" . $_SESSION["username"] . " . ";
-        echo "Email:" . $_SESSION["useremail"] . " . ";
+        echo "Name:" . $_SESSION["name"] . " . ";
+        echo "Email:" . $_SESSION["email"] . " . ";
         echo "Total Price: " . $_SESSION["total"] . " . ";
         ?>
         </center>
