@@ -21,11 +21,11 @@
 }
 /*changing button size colour and position*/
 .button{
+    float:left;
     color:white;
     background-color:#2791b5;
-    width:65px;
-    height:30px;
-    float:left;
+    width:68px;
+    height:35px;
 }
 /*changing button size colour and position*/
 .button1{
@@ -33,7 +33,7 @@
     color:white;
     background-color:#2791b5;
     width:65px;
-    height:30px;
+    height:35px;
 }
 .image{
     height:350px;
@@ -50,14 +50,33 @@ body {
     width:450px;
     height:300px;
 }
+/*changing button size colour and position*/
 .button2{
-    height:65px;
-    width:40px;
+    float:left;
+    color:white;
+    background-color:#2791b5;
+    width:65px;
+    height:35px;
 }
 /*centers the image and adjusts the height and width*/
 .cloudimage {
     display:block;
     margin-left:auto;
     margin-right:auto;
-    width:45%;
+    width:400px;
+    height:auto;
+}
+.cloud9image{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:200px;
+    height:auto;
+}
+.amazonimage{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:200px;
+    height:auto;
 }

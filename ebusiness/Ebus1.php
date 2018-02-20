@@ -96,8 +96,8 @@ session_start();
             
             <br/>
             <!--Buttons to calculate and navigate-->
-            <button onClick="calcSub()" class="Calculate">Calculate Cost</button>
-            <a role="button" href="Ebus1.php" class="Clear">Clear Choice</a>
+            <button onClick="calcSub()" class="calculate">Calculate Cost</button>
+            <a href= "Ebus1.php"><button class="clear">Clear Choice</button></a>
             
             <?php
             //Set session variables

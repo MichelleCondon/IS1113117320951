@@ -47,16 +47,16 @@
     background-color:green;
     border-radius: 8px;
 }
-    .Calculate{
+    .calculate{
     text-align:center;
     color:white;
     background-color:yellow;
     border-radius: 8px;
 }
-.Clear{
+    .clear{
     text-align:center;
-    color:red;
-    background-color:white;
+    font:red;
+    background-color:#edf0f2;
     border-radius: 8px;
 }
 .header{
