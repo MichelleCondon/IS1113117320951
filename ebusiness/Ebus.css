@@ -13,9 +13,7 @@
     width:100px;
     height:35px;
     border-radius:10px;
-    
     transition: .5s ease;
-    
 }
 .button3{
     color:Red;
@@ -24,7 +22,6 @@
     height:35px;
     text-align:center;
     border-radius:10px;
-    
     transition: .5s ease;
     
 }
@@ -35,24 +32,28 @@
     background-color:#00ace6;
     color:White;
 }
+/*Adds a plain background image*/
   .body {
      background-image: url("http://eskipaper.com/images/blurred-background-1.jpg");
      background-repeat:no-repeat;
      background-size:cover;
      font-size:25px;
 }
+/*Aligns buttons, curves edges and changes background colour and text colour*/
     .cart{
     text-align:center;
-    color:white;
-    background-color:green;
+    color:red;
+    background-color:white;
     border-radius: 8px;
 }
+/*Aligns buttons, curves edges and changes background colour and text colour*/
     .calculate{
     text-align:center;
     color:white;
-    background-color:yellow;
+    background-color:#d1bf1f;
     border-radius: 8px;
 }
+/*Aligns buttons, curves edges and changes background colour and text colour*/
     .clear{
     text-align:center;
     font:red;
@@ -60,6 +61,6 @@
     border-radius: 8px;
 }
 .header{
-                color:white;
-                background:#00ace6;
+    color:white;
+     background:#00ace6;
             }
