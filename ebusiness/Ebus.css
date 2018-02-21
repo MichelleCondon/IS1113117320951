@@ -42,8 +42,8 @@
 /*Aligns buttons, curves edges and changes background colour and text colour*/
     .cart{
     text-align:center;
-    color:red;
-    background-color:white;
+    color:white;
+    background-color:#edf0f2;
     border-radius: 8px;
 }
 /*Aligns buttons, curves edges and changes background colour and text colour*/
@@ -57,7 +57,7 @@
     .clear{
     text-align:center;
     font:red;
-    background-color:#edf0f2;
+    background-color:white;
     border-radius: 8px;
 }
 .header{
