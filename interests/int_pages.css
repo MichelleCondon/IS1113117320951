@@ -2,7 +2,8 @@
    background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Adventure-Background-2560x1440-PIC-WPC005116.jpg");
    background-repeat: no-repeat;
    background-position:center;
-   background-size:contain;
+   background-size:cover;
+    height:100%;
    background-color:#569fa3;
    border-style:solid;
    border-color:Black;
@@ -12,7 +13,8 @@
     background-image: url("https://media.timeout.com/images/103444978/image.jpg");
     background-repeat:no-repeat;
     background-position:center;
-    background-size:contain;
+    background-size:cover;
+    height:100%;
     background-color:#3c5ebc;
     border-style:solid;
     border-color:black;
@@ -23,7 +25,8 @@
     background-image: url("https://www.rei.com/adventures/assets/adventures/images/trip/core/northamerica/zny_hero");
     background-repeat:no-repeat;
     background-position:center;
-    background-size:contain;
+    background-size:cover;
+    height:100%;
     background-color:#124c4b;
     border-style:solid;
     border-color:black;

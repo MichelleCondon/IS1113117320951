@@ -109,6 +109,36 @@ body {
     width:12%;
     height:10%;
 }
+/*adjusting button size, edges and colour*/
+.githubbutton {
+    background:black;
+    color:white;
+    border-radius: 12px;
+}
+/*adjusting button size, edges and colour*/
+.ebusbutton {
+    background:#216f8c; 
+    color:white;
+    border-radius: 12px;
+}
+/*adjusting button size, edges and colour*/
+.cloudbutton {
+    background:#88c3d8;  
+    color:black;
+    border-radius: 12px;
+}
+/*adjusting button size, edges and colour*/
+.interestsbutton {
+    background:#a5171e;  
+    color:white;
+    border-radius: 12px;
+}
+/*adjusting button size, edges and colour*/
+.cvbutton {
+    background:#1e9676;  
+    color:white;
+    border-radius: 12px;
+}
 
 
 
