@@ -80,13 +80,7 @@ body {
     width:200px;
     height:auto;
 }
-            .topnav {
-            overflow: hidden;
-            background-color: #b4b4b4;
-            }
-                
-            .topnav a {
-            float: left;
+                .topnav a {
             color: #f2f2f2;
             text-align: center;
             padding: 14px 16px;
@@ -100,7 +94,7 @@ body {
             }
                 
             .topnav .active {
-            background-color: #70708F;
+            background-color: #00ace6;
             color: white;
             }
 
