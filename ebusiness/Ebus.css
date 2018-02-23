@@ -43,7 +43,7 @@
     .cart{
     text-align:center;
     color:white;
-    background-color:#32770;
+    background-color:#156b1b;
     border-radius: 8px;
 }
 /*Aligns buttons, curves edges and changes background colour and text colour*/
@@ -64,3 +64,21 @@
     color:white;
      background:#00ace6;
             }
+.infobutton{
+    color:white;
+    background-color:#2791b5;
+    width:80px;
+    height:40px;
+    border-radius:10px;
+    transition: .5s ease;
+    
+}
+.cartbutton{
+    float:right;
+    color:white;
+    background-color:#2791b5;
+    width:80px;
+    height:40px;
+    border-radius:10px;
+    transition: .5s ease;
+}
