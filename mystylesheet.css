@@ -16,7 +16,7 @@ font-size:25px;
 }
 /*Adds a plain background image*/
 body {
-    background-image: url("http://eskipaper.com/images/blurred-background-1.jpg");
+    background-image: url("http://img.freepik.com/vrije-photo/kopje-koffie-op-een-bureau-met-een-laptop-en-enkele-glazen-te-zien_1112-114.jpg?size=338&ext=jpg/");
     background-repeat:no-repeat;
     background-size:cover;
     font-size:25px;
@@ -32,7 +32,7 @@ body {
 /*centers the image and adjusts the height and width*/
 .cvimage {
     display:block;
-    margin-left:auto;
+    margin-left:10px;
     margin-right:auto;
     width:18%;
     height:10%;
@@ -40,7 +40,7 @@ body {
 /*centers the image and adjusts the height and width*/
 .interestimage {
     display:block;
-    margin-left:auto;
+    margin-left:10px;
     margin-right:auto;
     width:18%;
     height:10%;
@@ -133,11 +133,15 @@ body {
     color:white;
     border-radius: 12px;
 }
-/*adjusting button size, edges and colour*/
+/*adjusting button size, edges, position and colour*/
 .cvbutton {
     background:#1e9676;  
     color:white;
     border-radius: 12px;
+    position:absolute;
+    transition: .5s ease;
+    top:62%;
+    left:4.5%;;
 }
 
 

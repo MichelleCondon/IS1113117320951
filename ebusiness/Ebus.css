@@ -56,7 +56,7 @@
 /*Aligns buttons, curves edges and changes background colour and text colour*/
     .clear{
     text-align:center;
-    font:red;
+    color:red;
     background-color:white;
     border-radius: 8px;
 }
