@@ -13,9 +13,18 @@ session_start();
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
         <!--Adding colour to header and adding a background image-->
+          <!--html styling-->
+        <style>
+        body {
+     background-image: url("http://eskipaper.com/images/blurred-background-1.jpg");
+     background-repeat:no-repeat;
+     background-size:cover;
+     font-size:25px;
+        }
+        </style>
     </head>
     
-    <body class="body">
+    <body>
         <center>
         <header>
             <!--Page Heading-->

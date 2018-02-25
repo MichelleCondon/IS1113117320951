@@ -1,3 +1,16 @@
+/*adds a blue background to the heading, adjusts text colour and font*/
+.mainheading{
+        font-family: Arial;
+        text-align: center;
+        Padding:10px;
+        background-color:#00ace6;
+        color:White;
+    }
+/*adjusting the cloud image size*/
+.cloudimage{
+    width:350px;
+    height:180px;
+}
 .button{
     color:white;
     background-color:#16751b;
@@ -82,3 +95,21 @@
     border-radius:10px;
     transition: .5s ease;
 }
+/*adjusting navigation bar colours fonts and size etc.*/
+.topnav a {
+            color:white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            }
+                
+.topnav a:hover {
+            background-color: #ddd;
+            color: black;
+            }
+                
+.topnav .active {
+            background-color: #00ace6;
+            color: white;
+            }
