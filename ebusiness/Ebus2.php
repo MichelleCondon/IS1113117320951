@@ -52,11 +52,11 @@ session_start();
               <br/>
               
               <label for="cardname">Name on Card:</label>
-              <input type="text" name="cardname" placeholder="Name on Card" maxlength="16" required=''>
+              <input type="text" name="cardname" id="cardname" placeholder="Name on Card" maxlength="20" required=''>
               <br/>
               
               <label for="cvc">Security Code:</label>
-              <input type="number" name="cvc" placeholder="Security Code" maxlength="3" required=''>
+              <input type="number" name="cvc" id="security_code" placeholder="Security Code" maxlength="3" required=''>
               <br/>
               
               <label for="user_pin">PIN:</label>
