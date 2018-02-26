@@ -6,6 +6,23 @@
         background-color:#00ace6;
         color:White;
     }
+    body {
+     background-image: url("http://eskipaper.com/images/blurred-background-1.jpg");
+     background-repeat:no-repeat;
+     background-size:cover;
+     font-size:25px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float:right;
+}
+li a {
+    display: block;
+    width: 60px;
+    float:right;
+}
 /*adjusting the cloud image size*/
 .cloudimage{
     width:350px;

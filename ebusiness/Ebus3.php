@@ -9,25 +9,6 @@ session_start();
        <link rel="stylesheet" href="Ebus.css" type="text/css"/>
        <!--Page Title-->
         <title>Receipt</title>
-         <style>
-body {
-     background-image: url("http://eskipaper.com/images/blurred-background-1.jpg");
-     background-repeat:no-repeat;
-     background-size:cover;
-     font-size:25px;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    float:right;
-}
-li a {
-    display: block;
-    width: 60px;
-    float:right;
-}
-        </style>
     </head>
     <body>
     <ul>
@@ -60,7 +41,7 @@ li a {
         $_SESSION["name"]= $_POST["name"];
         $_SESSION["email"]= $_POST["email"];
         ?>
-        
+
         <?php
         //Echo session variables that were set on previous pages and above
         echo "Name:" . $_SESSION["name"],"<br/>";
