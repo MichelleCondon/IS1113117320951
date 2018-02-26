@@ -86,26 +86,14 @@ body {
     height:10%;
 }
 /*adjusting button size, edges and colour*/
-.githubbutton {
-    background:black;
-    color:white;
-    border-radius: 12px;
-}
-/*adjusting button size, edges and colour*/
-.ebusbutton {
+.cloudservicesbutton {
     background:#216f8c; 
     color:white;
     border-radius: 12px;
     position:absolute;
     transition: .5s ease;
-    top:92%;
-    right:18%;
-}
-/*adjusting button size, edges and colour*/
-.cloudbutton {
-    background:#88c3d8;  
-    color:black;
-    border-radius: 12px;
+    top:182%;
+    left:16%;
 }
 /*adjusting button size, edges and colour*/
 .interestsbutton {
@@ -114,8 +102,8 @@ body {
     border-radius: 12px;
     position:absolute;
     transition: .5s ease;
-    top:92%;
-    left:43%;
+    top:96%;
+    left:65%;
 }
 /*adjusting button size, edges, position and colour*/
 .cvbutton {
@@ -124,30 +112,57 @@ body {
     border-radius: 12px;
     position:absolute;
     transition: .5s ease;
-    top:92%;
-    left:10%;
+    top:96%;
+    left:16%;
 }
 .img {
     position: relative;
     float: left;
     width:  400px;
     height: 400px;
+    margin-bottom:10%;
+    margin-right:10%;
+    margin-left:5%;
     background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
     
 }
-.img1 {
-    position: relative;
-    float: left;
-    width:  400px;
-    height: 400px;
-    background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
-    top:500%;
-    
+/*adjusting button size, edges and colour*/
+.githubbutton {
+    background:black;  
+    color:white;
+    border-radius: 12px;
+    position:absolute;
+    transition: .5s ease;
+    top:267%;
+    left:19%;
 }
-
-
+/*adjusting button size, edges, position and colour*/
+.ebusbutton {
+    background:#62a3c4;  
+    color:white;
+    border-radius: 12px;
+    position:absolute;
+    transition: .5s ease;
+    top:182%;
+    left:65%;
+}
+/*adjusting button size, edges and colour*/
+.herokubutton {
+    background:#720b84; 
+    color:white;
+    border-radius: 12px;
+    position:absolute;
+    transition: .5s ease;
+    top:267%;
+    left:65%;
+}
+/*adding a plain background*/
+body {
+    background-image: url("http://yiworks.com/wp-content/uploads/2016/11/Light-Grey-Background-Hd-5-1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-size:30px;
+}
 
