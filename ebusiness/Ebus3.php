@@ -11,13 +11,21 @@ session_start();
         <title>Receipt</title>
     </head>
     <body>
+        <!--navigation bar-->
+        <div class="topnav">
+        <a href= "../homepage.html">Home</a>
+        <a href= "Ebus1.php">Products Page</a>
+        <a href= "Ebus2.php">Payment Details</a>
+        <a href= "terms.html">T&C's</a>
+        </div>
     <ul>
-      <li><a href="Ebus1.php"><img src="http://www.free-icons-download.net/images/shopping-cart-logo-icon-70706.png" width="100" height="100"></a></li>
+        <!--shopping cart image-->
+      <li class="cartebus3"><a href="Ebus1.php"><img src="http://www.free-icons-download.net/images/shopping-cart-logo-icon-70706.png" width="100" height="100"></a></li>
      </ul>
       <br/>
       <br/>
       <!--creates the moving title on the page-->
-      <marquee direction="right">Target Cloud Services</marquee>
+      <marquee direction="right" bgcolor="#00ace6" height="50px">Target Cloud Services</marquee>
       <br/>
       <br/>
       <!--adding a confirmation tick-->
@@ -50,10 +58,10 @@ session_start();
         ?>
         <br/>
         <br/>
-        <p>Thank you for shopping at Target Cloud Services.<br/>
-        If you have any queries related to your product or any future problems pleases feel free to contact our customer services team.</p>
-        Freephone at 1800 345 4545 between 9pm and 5pm Monday to Saturday.<br/>
-        Or email us at targetcloudserviceshelp@gmail.com</p>
+        <p><font size="4" face="Arial">Thank you for shopping at Target Cloud Services.<br/>
+        If you have any queries related to your product or any future problems pleases feel free to contact our customer services team.</font></p>
+        <p><font size="4" face="Arial">Freephone at 1800 345 4545 between 9pm and 5pm Monday to Saturday.<br/>
+        Or email us at targetcloudserviceshelp@gmail.com</p></font>
         </center>
     </body>
 </html>

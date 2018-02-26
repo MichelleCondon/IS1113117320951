@@ -62,13 +62,6 @@ li a {
     background-color:#00ace6;
     color:White;
 }
-/*Adds a plain background image*/
-  .body {
-     background-image: url("http://eskipaper.com/images/blurred-background-1.jpg");
-     background-repeat:no-repeat;
-     background-size:cover;
-     font-size:25px;
-}
 /*Aligns buttons, curves edges and changes background colour and text colour*/
     .cart{
     text-align:center;
@@ -130,3 +123,7 @@ li a {
             background-color: #00ace6;
             color: white;
             }
+.cartebus3{
+    margin-right:50%;
+    
+}
