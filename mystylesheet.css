@@ -165,4 +165,10 @@ body {
     background-size:cover;
     font-size:30px;
 }
-
+/*adding a plain background*/
+.body1 {
+    background-image: url("http://eskipaper.com/images/blurred-background-1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-size:30px;
+}
