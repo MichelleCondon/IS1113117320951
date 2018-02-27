@@ -81,7 +81,7 @@ body {
     height:auto;
 }
                 .topnav a {
-            color:blue;
+            color:white;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
@@ -97,5 +97,13 @@ body {
             background-color: #00ace6;
             color: white;
             }
-
+p{
+                font-size:30px;
+            }
+            li{
+                font-size:30px;
+            }
+            h3{
+                font-size:30px;
+            }
 
