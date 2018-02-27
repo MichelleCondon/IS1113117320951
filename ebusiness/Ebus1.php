@@ -4,27 +4,20 @@ session_start();
 ?>
 
 <!DOCTYPE html>
+<!--opening tags-->
 <html>
     <head>
-      <!--Page Title-->
+        <!--Page Title-->
         <title>Products</title>
+        <!--linkinh to stylesheet-->
         <link rel="stylesheet" href="Ebus.css" type="text/css"/>
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
-        <!--Adding colour to header and adding a background image-->
-          <!--html styling-->
-        <style>
-        body {
-     background-image: url("http://eskipaper.com/images/blurred-background-1.jpg");
-     background-repeat:no-repeat;
-     background-size:cover;
-     font-size:25px;
-        }
-        </style>
     </head>
     
     <body>
+      <!--centers all elements within the tags-->
         <center>
         <header>
             <!--Page Heading-->
@@ -36,6 +29,7 @@ session_start();
               <!--Labels for products-->
               <!--Label for Salesforce-->
               <label for="salesforce">
+                <!--radio button-->
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
                 SalesForce @ $100
               </label>
@@ -112,6 +106,7 @@ session_start();
             //Set session variables
             $_SESSION["total"] - $_POST["total"]
             ?>
+            <!--closing tags-->
     </center>
     </body>
 </html>

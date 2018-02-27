@@ -19,8 +19,10 @@ session_start();
         <a href= "terms.html">T&C's</a>
         </div>
     <ul>
+        <!--printer image-->
+    <li class="printer"><img src="http://www.clipartbest.com/cliparts/6ni/Xan/6niXan9cB.png" width="100" height="100"></li>
         <!--shopping cart image-->
-      <li class="cartebus3"><a href="Ebus1.php"><img src="http://www.free-icons-download.net/images/shopping-cart-logo-icon-70706.png" width="100" height="100"></a></li>
+    <li class="cartebus3"><a href="Ebus1.php"><img src="http://www.free-icons-download.net/images/shopping-cart-logo-icon-70706.png" width="100" height="100"></a></li>
      </ul>
       <br/>
       <br/>
@@ -44,8 +46,8 @@ session_start();
         Ireland</p>
         <!--heading-->
         <h2><strong>Details:</strong></h2>
-        <!--Set session variables-->
         <?php
+        //Set session variables
         $_SESSION["name"]= $_POST["name"];
         $_SESSION["email"]= $_POST["email"];
         ?>
@@ -53,15 +55,22 @@ session_start();
         <?php
         //Echo session variables that were set on previous pages and above
         echo "Name:" . $_SESSION["name"],"<br/>";
-        echo "Email:" . $_SESSION["email"] . " . ","<br/>";
-        echo "Total Price: " . $_SESSION["total"] . " . ";
+        echo "Email:" . $_SESSION["email"],"<br/>";
+        echo "Total Price:" . $_SESSION["total"];
         ?>
         <br/>
         <br/>
+        <br/>
+        <br/>
+        <br/>
+        <!--adding a dividing line on the page-->
+        <hr>
+        <!--paragrpahs-->
         <p><font size="4" face="Arial">Thank you for shopping at Target Cloud Services.<br/>
         If you have any queries related to your product or any future problems pleases feel free to contact our customer services team.</font></p>
         <p><font size="4" face="Arial">Freephone at 1800 345 4545 between 9pm and 5pm Monday to Saturday.<br/>
         Or email us at targetcloudserviceshelp@gmail.com</p></font>
+        <!--closing tags-->
         </center>
     </body>
 </html>

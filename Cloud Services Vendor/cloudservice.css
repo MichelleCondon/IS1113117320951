@@ -1,19 +1,6 @@
+/*changing font, text colour and backgrounf colour*/
 .mainheading{
         font-family: Arial;
-        text-align: center;
-        Padding:10px;
-        background-color:#00ace6;
-        color:White;
-}
-.h2{
-     font-family: Arial;
-        text-align: center;
-        Padding:10px;
-        background-color:#00ace6;
-        color:White;
-}
-.h4{
-     font-family: Arial;
         text-align: center;
         Padding:10px;
         background-color:#00ace6;
@@ -50,14 +37,7 @@ body {
     width:450px;
     height:300px;
 }
-/*changing button size colour and position*/
-.button2{
-    float:left;
-    color:white;
-    background-color:#2791b5;
-    width:65px;
-    height:35px;
-}
+
 /*centers the image and adjusts the height and width*/
 .cloudimage {
     display:block;

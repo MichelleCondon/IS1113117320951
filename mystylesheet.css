@@ -14,13 +14,6 @@ font-size:25px;
 li{text-align: center;
 font-size:25px;
 }
-/*Adds a plain background image*/
-body {
-    background-image: url("http://img.freepik.com/vrije-photo/kopje-koffie-op-een-bureau-met-een-laptop-en-enkele-glazen-te-zien_1112-114.jpg?size=338&ext=jpg/");
-    background-repeat:no-repeat;
-    background-size:cover;
-    font-size:25px;
-}
 /*centers the image and adjusts the height and width*/
 .businessimage {
     display:block;
@@ -92,7 +85,7 @@ body {
     border-radius: 12px;
     position:absolute;
     transition: .5s ease;
-    top:182%;
+    top:144%;
     left:16%;
 }
 /*adjusting button size, edges and colour*/
@@ -102,8 +95,8 @@ body {
     border-radius: 12px;
     position:absolute;
     transition: .5s ease;
-    top:96%;
-    left:65%;
+    top:75%;
+    left:60%;
 }
 /*adjusting button size, edges, position and colour*/
 .cvbutton {
@@ -112,8 +105,8 @@ body {
     border-radius: 12px;
     position:absolute;
     transition: .5s ease;
-    top:96%;
-    left:16%;
+    top:75%;
+    left:15%;
 }
 .img {
     position: relative;
@@ -135,8 +128,8 @@ body {
     border-radius: 12px;
     position:absolute;
     transition: .5s ease;
-    top:267%;
-    left:19%;
+    top:212%;
+    left:17%;
 }
 /*adjusting button size, edges, position and colour*/
 .ebusbutton {
@@ -145,8 +138,8 @@ body {
     border-radius: 12px;
     position:absolute;
     transition: .5s ease;
-    top:182%;
-    left:65%;
+    top:144%;
+    left:60%;
 }
 /*adjusting button size, edges and colour*/
 .herokubutton {
@@ -155,17 +148,17 @@ body {
     border-radius: 12px;
     position:absolute;
     transition: .5s ease;
-    top:267%;
-    left:65%;
+    top:212%;
+    left:60%;
 }
 /*adding a plain background*/
 body {
-    background-image: url("http://yiworks.com/wp-content/uploads/2016/11/Light-Grey-Background-Hd-5-1.jpg");
+    background-image: url("http://www.publicdomainpictures.net/pictures/40000/velka/gray-background-1361959709geQ.jpg");
     background-repeat:no-repeat;
     background-size:cover;
     font-size:30px;
 }
-/*adding a plain background*/
+/*adding a plain background for the cv pages*/
 .body1 {
     background-image: url("http://eskipaper.com/images/blurred-background-1.jpg");
     background-repeat:no-repeat;
