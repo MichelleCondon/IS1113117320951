@@ -1,3 +1,4 @@
+/*page 1 of pagepiling, adding an image and adjusting its size*/
 #section1{
    background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Adventure-Background-2560x1440-PIC-WPC005116.jpg");
    background-repeat: no-repeat;
@@ -9,6 +10,7 @@
    border-color:Black;
    text-align:center;
 }
+/*page 2 of pagepiling, adding an image and adjusting its size*/
 #section2{
     background-image: url("https://media.timeout.com/images/103444978/image.jpg");
     background-repeat:no-repeat;
@@ -21,6 +23,7 @@
     text-align:left;
     
 }
+/*page 3 of pagepiling, adding an image and adjusting its size*/
 #section3{
     background-image: url("https://www.rei.com/adventures/assets/adventures/images/trip/core/northamerica/zny_hero");
     background-repeat:no-repeat;
@@ -31,6 +34,20 @@
     border-style:solid;
     border-color:black;
     text-align:center;
+    
+}
+/*page 4 of pagepiling, adding an image and adjusting its size*/
+#section4{
+    background-image: url("https://www.billboard.com/files/styles/promo_650/public/media/spotify_650.png");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    height:100%;
+    background-color:#124c4b;
+    border-style:solid;
+    border-color:black;
+    text-align:center;
+    color:white;
     
 }
 .section{

@@ -22,10 +22,6 @@
     width:65px;
     height:35px;
 }
-.image{
-    height:350px;
-    width:400px;
-}
 /*adding a plain background*/
 body {
     background-image: url("http://eskipaper.com/images/blurred-background-1.jpg");
@@ -33,11 +29,6 @@ body {
     background-size:cover;
     font-size:30px;
 }
-.image2{
-    width:450px;
-    height:300px;
-}
-
 /*centers the image and adjusts the height and width*/
 .cloudimage {
     display:block;
@@ -46,6 +37,7 @@ body {
     width:400px;
     height:auto;
 }
+/*centers the image and adjusts the height and width*/
 .cloud9image{
     display:block;
     margin-left:auto;
@@ -53,6 +45,7 @@ body {
     width:200px;
     height:auto;
 }
+/*centers the image and adjusts the height and width*/
 .amazonimage{
     display:block;
     margin-left:auto;
@@ -60,30 +53,32 @@ body {
     width:200px;
     height:auto;
 }
-                .topnav a {
-            color:white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-            }
-                
-            .topnav a:hover {
-            background-color: #ddd;
-            color: black;
-            }
-                
-            .topnav .active {
-            background-color: #00ace6;
-            color: white;
-            }
+/*navigation bar text colour, background colour and font size*/
+.topnav a {
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+}
+/*changing the colour of a navigation bar when a mouse is hovered over it*/
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/*changing the colour of a navigation bar when its active*/         
+.topnav .active {
+    background-color: #00ace6;
+    color: white;
+}
+/*changing font size of paragraphs, lists and headings*/
 p{
-                font-size:30px;
-            }
-            li{
-                font-size:30px;
-            }
-            h3{
-                font-size:30px;
-            }
+    font-size:30px;
+}
+li{
+    font-size:30px;
+}
+h3{
+    font-size:30px;
+}
 

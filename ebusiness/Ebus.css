@@ -5,19 +5,22 @@
         Padding:10px;
         background-color:#00ace6;
         color:White;
-    }
+}
+/*adding a plain background*/
     body {
      background-image: url("http://eskipaper.com/images/blurred-background-1.jpg");
      background-repeat:no-repeat;
      background-size:cover;
      font-size:25px;
 }
+/*styling unordered lists*/
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     float:right;
 }
+/*styling ordered lists*/
 li a {
     display: block;
     width: 60px;
@@ -28,6 +31,7 @@ li a {
     width:350px;
     height:180px;
 }
+/*adjusting button size and colour*/
 .button{
     color:white;
     background-color:#16751b;
@@ -37,6 +41,7 @@ li a {
     transition: .5s ease;
     
 }
+/*adjusting button size and colour*/
 .button2{
     color:white;
     background-color:#dbb52b;
@@ -45,6 +50,7 @@ li a {
     border-radius:10px;
     transition: .5s ease;
 }
+/*adjusting button size and colour*/
 .button3{
     color:Red;
     background-color:white;
@@ -55,6 +61,7 @@ li a {
     transition: .5s ease;
     
 }
+/*changing font, positioning and colour*/
  .heading{
     font-family: Arial;
     text-align: center;
@@ -107,23 +114,22 @@ li a {
 }
 /*adjusting navigation bar colours fonts and size etc.*/
 .topnav a {
-            color:white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-            }
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
                 
 .topnav a:hover {
-            background-color: #ddd;
-            color: black;
-            }
+    background-color: #ddd;
+    color: black;
+}
                 
 .topnav .active {
-            background-color: #00ace6;
-            color: white;
-            }
+    background-color: #00ace6;
+    color: white;
+}
 .cartebus3{
     margin-right:50%;
-    
 }
