@@ -133,3 +133,19 @@ li a {
 .cartebus3{
     margin-right:50%;
 }
+/*changing button size colour and position*/
+.cancel{
+    float:left;
+    color:white;
+    background-color:#2791b5;
+    width:68px;
+    height:35px;
+}
+/*changing button size colour and position*/
+.agree{
+    float:right;
+    color:white;
+    background-color:#2791b5;
+    width:65px;
+    height:35px;
+}

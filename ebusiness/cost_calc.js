@@ -17,7 +17,7 @@ function calcSub()// Creating a function to calculate
         argSubTotal=400; //anything else means the subtotal is 400
  }
     calcDisVatTotal(argSubTotal);//calling function and passing the sub total as an argument
-}
+}//end function
 function calcDisVatTotal(parmSubTotal){ // parmSubTotal receives the sub total
     var subTotal; // creates variables
     var discountAmt;
@@ -31,22 +31,22 @@ function calcDisVatTotal(parmSubTotal){ // parmSubTotal receives the sub total
    
    
     display(subTotal,discountAmt,vatAmt,totalPrice); //calls the function display and passes it 4 arguments
-}
+}//end function
 function display(parm1,parm2,parm3,parm4){ //function receives the value of the 4 arguments passed
     document.getElementById("subtotal").value = parm1; //displays sub total
     document.getElementById("discount").value = parm2; // displays discount
     document.getElementById("vat").value = parm3; // displays vat 
     document.getElementById("total").value = parm4; // displays total
     enablebtnProceed(); //goes to the function and enables the button
-}
+}//end function
 
 function enablebtnProceed()
 {
     $('#btnProceed').prop('disabled', false); //find button proceed go into properties and enable button
-}
+}//end function
 
 function disablebtnProceed()
 {
     $('#btnProceed').prop('disabled', true);//find button proceed go into properties and disable button
-}
+}//end function
   
