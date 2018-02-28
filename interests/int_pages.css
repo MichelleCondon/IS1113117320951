@@ -1,6 +1,6 @@
 /*page 1 of pagepiling, adding an image and adjusting its size*/
 #section1{
-   background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Adventure-Background-2560x1440-PIC-WPC005116.jpg");
+   background-image: url("https://www.hdwallpaper.nu/wp-content/uploads/2015/02/Spain-HD-Wallpapers7.jpg");
    background-repeat: no-repeat;
    background-position:center;
    background-size:cover;
@@ -12,7 +12,7 @@
 }
 /*page 2 of pagepiling, adding an image and adjusting its size*/
 #section2{
-    background-image: url("https://media.timeout.com/images/103444978/image.jpg");
+    background-image: url("http://www.ameshotel.com/wp-content/uploads/2017/03/Boston-Harbor.jpg");
     background-repeat:no-repeat;
     background-position:center;
     background-size:cover;
@@ -20,12 +20,13 @@
     background-color:#3c5ebc;
     border-style:solid;
     border-color:black;
-    text-align:left;
+    text-align:center;
+    color:white;
     
 }
 /*page 3 of pagepiling, adding an image and adjusting its size*/
 #section3{
-    background-image: url("https://www.rei.com/adventures/assets/adventures/images/trip/core/northamerica/zny_hero");
+    background-image: url("http://3.bp.blogspot.com/-CRgpaXnjkes/UnPooxDFJYI/AAAAAAAAAH4/fNV4SkYt35E/s1600/Miami+1.png");
     background-repeat:no-repeat;
     background-position:center;
     background-size:cover;
@@ -34,11 +35,39 @@
     border-style:solid;
     border-color:black;
     text-align:center;
-    
+    color:white;
 }
 /*page 4 of pagepiling, adding an image and adjusting its size*/
 #section4{
-    background-image: url("https://www.billboard.com/files/styles/promo_650/public/media/spotify_650.png");
+    background-image: url("https://c.slashgear.com/wp-content/uploads/2017/12/spotify99promo-980x580.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    height:100%;
+    background-color:#124c4b;
+    border-style:solid;
+    border-color:black;
+    text-align:center;
+    color:white;
+    
+}
+/*page 5 of pagepiling, adding an image and adjusting its size*/
+#section5{
+    background-image: url("https://i.pinimg.com/originals/e2/3f/a6/e23fa65dcedeb00cc5f9ac4ca015699d.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    height:100%;
+    background-color:#124c4b;
+    border-style:solid;
+    border-color:black;
+    text-align:center;
+    color:white;
+    
+}
+/*page 6 of pagepiling, adding an image and adjusting its size*/
+#section6{
+    background-image: url("http://s.newsweek.com/sites/www.newsweek.com/files/2015/11/12/spotify.jpg");
     background-repeat:no-repeat;
     background-position:center;
     background-size:cover;
@@ -120,6 +149,40 @@ h2{
     background-color:#2791b5;
     width:65px;
     height:30px;
+}
+/*navigation bar text colour, background colour and font size*/
+.topnav a {
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+}
+/*changing the colour of a navigation bar when a mouse is hovered over it*/
+.topnav a:hover {
+    background-color:#41c681;
+    color: black;
+    text-decoration:none;
+}
+/*changing the colour of a navigation bar when its active*/         
+.topnav .active {
+    background-color: #00ace6;
+    color: white;
+    text-decoration:none;
+}
+/*Aligns buttons, curves edges and changes background colour and text colour*/
+    .home{
+    text-align:center;
+    color:white;
+    background-color:#0f3d25;
+    border-radius: 8px;
+}
+/*Aligns buttons, curves edges and changes background colour and text colour*/
+    .spotify{
+    text-align:center;
+    color:white;
+    background-color:#0f3d25;
+    border-radius: 8px;
 }
 
 

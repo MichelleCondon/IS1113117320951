@@ -108,6 +108,7 @@ font-size:25px;
     top:75%;
     left:15%;
 }
+/*adjusting all images in divs*/
 .img {
     position: relative;
     float: left;
