@@ -85,7 +85,7 @@ font-size:25px;
     border-radius: 12px;
     position:absolute;
     transition: .5s ease;
-    top:144%;
+    top:182%;
     left:16%;
 }
 /*adjusting button size, edges and colour*/
@@ -95,8 +95,8 @@ font-size:25px;
     border-radius: 12px;
     position:absolute;
     transition: .5s ease;
-    top:75%;
-    left:60%;
+    top:96%;
+    left:64%;
 }
 /*adjusting button size, edges, position and colour*/
 .cvbutton {
@@ -105,8 +105,8 @@ font-size:25px;
     border-radius: 12px;
     position:absolute;
     transition: .5s ease;
-    top:75%;
-    left:15%;
+    top:96%;
+    left:17%;
 }
 /*adjusting all images in divs*/
 .img {
@@ -129,8 +129,8 @@ font-size:25px;
     border-radius: 12px;
     position:absolute;
     transition: .5s ease;
-    top:212%;
-    left:17%;
+    top:268%;
+    left:19%;
 }
 /*adjusting button size, edges, position and colour*/
 .ebusbutton {
@@ -139,8 +139,8 @@ font-size:25px;
     border-radius: 12px;
     position:absolute;
     transition: .5s ease;
-    top:144%;
-    left:60%;
+    top:182%;
+    left:64%;
 }
 /*adjusting button size, edges and colour*/
 .herokubutton {
@@ -149,8 +149,8 @@ font-size:25px;
     border-radius: 12px;
     position:absolute;
     transition: .5s ease;
-    top:212%;
-    left:60%;
+    top:268%;
+    left:64%;
 }
 /*adding a plain background*/
 body {
