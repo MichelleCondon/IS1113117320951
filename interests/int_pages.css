@@ -79,6 +79,15 @@
     color:white;
     
 }
+/*adding a background colour to the main heading*/
+.mainheading{
+        font-family: Arial;
+        text-align: center;
+        Padding:10px;
+        background-color:#41c681;
+        color:White;
+}
+/*adjusting font size*/
 .section{
     color:black;
     font-size:25px;
@@ -94,8 +103,8 @@ body {
     display:block;
     margin-left:auto;
     margin-right:auto;
-    width:10%;
-    height:5%;
+    width:25%;
+    height:10%;
 }
 /*centers the image and adjusts the height and width*/
 .spotifyimage {
@@ -128,18 +137,20 @@ h2{
 /*button design and colour*/
 .button{
     color:white;
-    background-color:#2791b5;
+    background-color:#41c681;
     width:65px;
     height:30px;
     float:left;
+    border-radius:10px;
 }
 /*button design and colour*/
 .button1{
     float:right;
     color:white;
-    background-color:#2791b5;
+    background-color:#41c681;
     width:65px;
     height:30px;
+    border-radius:10px;
 }
 
 /*button design and colour*/
@@ -174,15 +185,21 @@ h2{
     .home{
     text-align:center;
     color:white;
-    background-color:#0f3d25;
+    background-color:#41c681;
     border-radius: 8px;
 }
 /*Aligns buttons, curves edges and changes background colour and text colour*/
     .spotify{
     text-align:center;
     color:white;
-    background-color:#0f3d25;
+    background-color:#41c681;
     border-radius: 8px;
 }
-
+/*Aligns buttons, curves edges and changes background colour and text colour*/
+    .travel{
+    text-align:center;
+    color:white;
+    background-color:#41c681;
+    border-radius: 8px;
+}
 

@@ -13,6 +13,7 @@
     background-color:#2791b5;
     width:68px;
     height:35px;
+    border-radius:10px;
 }
 /*changing button size colour and position*/
 .button1{
@@ -21,6 +22,7 @@
     background-color:#2791b5;
     width:65px;
     height:35px;
+    border-radius:10px;
 }
 /*adding a plain background*/
 body {
@@ -42,7 +44,7 @@ body {
     display:block;
     margin-left:auto;
     margin-right:auto;
-    width:200px;
+    width:250px;
     height:auto;
 }
 /*centers the image and adjusts the height and width*/
@@ -50,8 +52,8 @@ body {
     display:block;
     margin-left:auto;
     margin-right:auto;
-    width:200px;
-    height:auto;
+    width:150px;
+    height:300px;
 }
 /*navigation bar text colour, background colour and font size*/
 .topnav a {
@@ -63,7 +65,7 @@ body {
 }
 /*changing the colour of a navigation bar when a mouse is hovered over it*/
 .topnav a:hover {
-    background-color: #ddd;
+    background-color:#00ace6;
     color: black;
 }
 /*changing the colour of a navigation bar when its active*/         

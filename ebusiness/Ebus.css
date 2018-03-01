@@ -99,7 +99,7 @@ li a {
     background-color:#2791b5;
     width:80px;
     height:40px;
-    border-radius:10px;
+    border-radius:8px;
     transition: .5s ease;
     
 }
@@ -109,7 +109,7 @@ li a {
     background-color:#2791b5;
     width:80px;
     height:40px;
-    border-radius:10px;
+    border-radius:8px;
     transition: .5s ease;
 }
 /*adjusting navigation bar colours fonts and size etc.*/
@@ -148,4 +148,50 @@ li a {
     background-color:#2791b5;
     width:65px;
     height:35px;
+}
+
+#cardnumber{
+    font-size: 18pt;
+    height: 20px;
+    width : 300px
+
+}
+#cardname{
+   font-size: 18pt;
+    height: 20px;
+    width : 300px;
+}
+#security_code{
+    font-size: 18pt;
+    height: 20px;
+    width : 300px;
+}
+#user_pin{
+    font-size: 18pt;
+    height: 20px;
+    width : 300px;
+}
+#name{
+    font-size: 18pt;
+    height: 25px;
+    width : 300px;
+}
+#email{
+    font-size: 18pt;
+    height: 25px;
+    width : 300px;
+}
+/*Aligns buttons, curves edges and changes background colour and text colour*/
+    .determine{
+    text-align:center;
+    color:white;
+    background-color:#0099ff;
+    border-radius: 8px;
+}
+/*Aligns buttons, curves edges and changes background colour and text colour*/
+    .pro{
+    text-align:center;
+    color:white;
+    background-color:#156b1b;
+    border-radius: 8px;
 }

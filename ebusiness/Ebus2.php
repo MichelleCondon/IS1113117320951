@@ -29,8 +29,11 @@ session_start();
             <label for="visa" class="visalabel">
                   <input type="radio" name="payment" id="visa" onClick="disablebtnProceed()"/>
                   <img src="http://www.travelandtourismnews.com/wp-content/uploads/2008/07/logo-visa.jpg" width="100" height="70">
+              </label>
+            <!--Mastercard option-->
+            <label for="mastercard" class="mclabel">
+                  <input type="radio" name="payment" id="mastercard" onClick="disablebtnProceed()"/>
                   <img src="http://cdn.blogosfere.it/virtualearn/images/mastercard.png" width="100" height="70">
-                  <img src="http://1000logos.net/wp-content/uploads/2017/09/Amex-Logo.png" width="100" height="70">
               </label>
               <!--paypal option-->
               <label for="paypal">
@@ -61,20 +64,19 @@ session_start();
               <br/>
               <!--name label-->
               <label for="name">Name:</label>
-              <input type="text" name="name" placeholder="Name" maxlength="20" required=''>
+              <input type="text" name="name" id="name" placeholder="Name" maxlength="20" required=''>
               
               <br/>
               <!--email label-->
               <label for="email">Email:</label>
-              <input type="email" name="email" placeholder="Email" required=''>
+              <input type="email" name="email" id="email" placeholder="Email" required=''>
               <br/>
              </center>
-     
+             <br/>
              <input type="checkbox" name="terms" value="terms"> By continuing it means you have agreed to our <a href= "terms.html">terms and conditions</a><br>
             <!--proceed button-->
-            <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
-            
-            </div>
+            <br/>
+            <button type="submit" id="btnPurchase" class="pro" disabled>Proceed with Purchase</button>
                 <!--closing form tag-->
                   </form>
             <!--calls the function validate details when clicked-->

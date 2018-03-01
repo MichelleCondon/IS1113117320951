@@ -9,7 +9,7 @@ session_start();
     <head>
         <!--Page Title-->
         <title>Products</title>
-        <!--linkinh to stylesheet-->
+        <!--linking to stylesheet-->
         <link rel="stylesheet" href="Ebus.css" type="text/css"/>
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -17,6 +17,11 @@ session_start();
     </head>
     
     <body>
+      <!--navigation bar links-->
+    <div class="topnav">
+        <a href= "../homepage.html">Home</a>
+        <a href= "../Cloud Services Vendor/cloudservice.html">Product Info</a>
+    </div>
       <!--centers all elements within the tags-->
         <center>
         <header>
@@ -38,7 +43,8 @@ session_start();
               <br/>
               <!--Cloud 9 label-->
               <label for="cloud 9">
-                  <input type="radio" id="cloud 9" name="product" checked onClick="disablebtnProceed()"/>
+                <!--radio button-->
+                <input type="radio" id="cloud 9" name="product" checked onClick="disablebtnProceed()"/>
                   Cloud 9 @ $200
               </label>
               
@@ -46,6 +52,7 @@ session_start();
               <br/>
               <!--Amazon Web Services label-->
               <label for="aws">
+                <!--radio button-->
                 <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
                 Amazon Web Services @ $300
               </label>
@@ -54,7 +61,8 @@ session_start();
               <br/>
               <!--Gmail Label-->
               <label for="gmail">
-                  <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
+                <!--radio button-->
+                <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
                   Gmail @ $400
               </label>
               
@@ -63,6 +71,7 @@ session_start();
               <!--Subtotal Label-->
               <label for="subtotal">
                 Sub Total
+                <!--text box-->
                 <input type="text" id="subtotal" value="0.00" readonly/>
               </label>
               
@@ -71,6 +80,7 @@ session_start();
               <!--Discount Label-->
               <label for="discount">
                   Discount @ 5%:
+                  <!--text box-->
                   <input type="text" id="discount" value=0.00 readonly/>
               </label>
               
@@ -79,6 +89,7 @@ session_start();
               <!--Vat Label-->
               <label for ="vat">
                   Vat @ 10%:
+                  <!--text box-->
                   <input type="text" id=vat value=0.00 readonly/>
               </label>
               
@@ -87,6 +98,7 @@ session_start();
               <!--Total Label-->
               <label for="total">
                 Total:
+                <!--text box-->
                 <input type="text" id="total" value="0.00" name="total" readonly/>
               </label>
     
@@ -99,6 +111,7 @@ session_start();
             
             <br/>
             <!--Buttons to calculate and navigate-->
+            <!--calls the function calcSub()-->
             <button onClick="calcSub()" class="calculate">Calculate Cost</button>
             <a href= "Ebus1.php"><button class="clear">Clear Choice</button></a>
             
