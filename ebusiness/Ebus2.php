@@ -47,32 +47,38 @@ session_start();
               <!--card number label-->
               <center>
               <label for="cardnumber">Card Number:</label>
-              
+              <!--text box-->
               <input type="number" name="cardnumber" id="cardnumber" placeholder="Card Number" maxlength="16" required=''>
               <br/>
               <!--card name label-->
               <label for="cardname">Name on Card:</label>
+              <!--text box-->
               <input type="text" name="cardname" id="cardname" placeholder="Name on Card" maxlength="20" required=''>
               <br/>
               <!--security card label-->
               <label for="cvc">Security Code:</label>
+              <!--text box-->
               <input type="number" name="cvc" id="security_code" placeholder="Security Code" maxlength="3" required=''>
               <br/>
               <!--pin label-->
               <label for="user_pin">PIN:</label>
+              <!--text box-->
             <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4" required=''>
               <br/>
               <!--name label-->
               <label for="name">Name:</label>
+              <!--text  box-->
               <input type="text" name="name" id="name" placeholder="Name" maxlength="20" required=''>
               
               <br/>
               <!--email label-->
               <label for="email">Email:</label>
+              <!--text box-->
               <input type="email" name="email" id="email" placeholder="Email" required=''>
               <br/>
              </center>
              <br/>
+             <!--checkbox-->
              <input type="checkbox" name="terms" value="terms"> By continuing it means you have agreed to our <a href= "terms.html">terms and conditions</a><br>
             <!--proceed button-->
             <br/>

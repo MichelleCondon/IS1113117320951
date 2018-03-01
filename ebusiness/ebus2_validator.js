@@ -44,7 +44,7 @@ function validateDetails(){
     //if the security code is empty an alert pops up
      cvc = document.getElementById("security_code").value;
      if (cvc == "") {
-        alert("Please enter your card details");
+        alert("Please enter your security code");
     }
     //if the pin is smaller than 3 digits an alert pops up
     else if (String(cvc).length < 3){
@@ -57,6 +57,7 @@ function validateDetails(){
     else {
         enablebtnPurchase();
     }//end function
+
 function enablebtnPurchase(){
      $('#btnPurchase').prop('disabled', false);
 } //end function
