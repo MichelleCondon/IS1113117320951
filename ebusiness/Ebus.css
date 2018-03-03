@@ -90,10 +90,12 @@ li a {
     background-color:white;
     border-radius: 8px;
 }
+/*changing the background colour of the header*/
 .header{
     color:white;
      background:#00ace6;
             }
+/*Aligns buttons, curves edges and changes background colour and text colour*/
 .infobutton{
     color:white;
     background-color:#2791b5;
@@ -101,8 +103,8 @@ li a {
     height:40px;
     border-radius:8px;
     transition: .5s ease;
-    
 }
+/*Aligns buttons, curves edges and changes background colour and text colour*/
 .cartbutton{
     float:right;
     color:white;
@@ -130,9 +132,11 @@ li a {
     background-color: #00ace6;
     color: white;
 }
+/*adjusts the cart image*/
 .cartebus3{
     margin-right:50%;
 }
+/*adjusting the printer image*/
 .printer{
      position:absolute;
     transition: .5s ease;
@@ -180,6 +184,7 @@ li a {
     left:46.5%;
     cursor:pointer;
 }
+/*Aligns buttons, curves edges and changes background colour and text colour*/
 .exit{
     color:white;
     background-color:#2791b5;
@@ -199,6 +204,7 @@ li a {
     top:63%;
     left:45%;
 }
+/*adjusting the labels position*/
 .lemail{
     position:absolute;
     transition: .5s ease;
@@ -240,30 +246,35 @@ li a {
     top:58%;
     left:45%;
 }
+/*adjusting the cardnumber labels position*/
 .lcardnumber{
     position:absolute;
     transition: .5s ease;
     top:37%;
     left:31.5%;
 }
+/*adjusting the cardname labels position*/
 .lcardname{
     position:absolute;
     transition: .5s ease;
     top:42%;
     left:31%;
 }
+/*adjusting the security code labels position*/
 .lcvc{
     position:absolute;
     transition: .5s ease;
     top:47%;
     left:31.5%;
 }
+/*adjusting the pin labels position*/
 .lpin{
     position:absolute;
     transition: .5s ease;
     top:52%;
     left:39.5%;
 }
+/*adjusting the name labels position*/
 .lname{
     position:absolute;
     transition: .5s ease;
@@ -277,6 +288,7 @@ li a {
     top:76%;
     left:45%;
 }
+/*adjusting the address labels position*/
 .add1{
     position:absolute;
     transition: .5s ease;
@@ -290,6 +302,7 @@ li a {
     top:8%2;
     left:45%;
 }
+/*adjusting the address labels position*/
 .add2{
     position:absolute;
     transition: .5s ease;
@@ -303,6 +316,7 @@ li a {
     top:90%;
     left:45%;
 }
+/*adjusting the city labels position*/
 .city{
     position:absolute;
     transition: .5s ease;
@@ -316,12 +330,14 @@ li a {
     top:85%;
     left:45%;
 }
+/*adjusting the postcode labels position*/
 .postcode{
     position:absolute;
     transition: .5s ease;
     top:85%;
     left:34%;
 }
+/*adjusting the country text box*/
 #country1{
     border-radius:8px;
     position:absolute;
@@ -329,6 +345,7 @@ li a {
     top:95.5%;
     left:45%;
 }
+/*adjusting the country labels position*/
 .country{
     position:absolute;
     transition: .5s ease;

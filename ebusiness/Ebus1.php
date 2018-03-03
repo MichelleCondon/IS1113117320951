@@ -114,8 +114,7 @@ session_start();
             </center>
             <!--Navigational button-->
             <a href= "/homepage.html"><button class="exit">Exit</button></a>
-            
-            <?php
+          <?php
             //Set session variables
             $_SESSION["total"] - $_POST["total"]
             ?>

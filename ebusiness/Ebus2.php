@@ -131,7 +131,7 @@ session_start();
            
             <?php
             //Set session variables
-            $_SESSION["total"]= $_POST["total"];
+           $_SESSION["total"]= $_POST["total"];
             ?>
             <!--closing tags-->
      </body>
