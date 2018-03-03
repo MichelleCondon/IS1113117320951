@@ -90,19 +90,23 @@ session_start();
               <input type="email" name="email" id="email" placeholder="Email" required='' style="width:300px; height=30px font-size:22px;">
               <br/>
               <h4><strong>Billing address</strong></h4>
-              
+              <!--label-->
               <label for="address1" class="add1">Address Line 1:</label>
               <!--text  box-->
-              <input type="text" name="addh" id="address_1" placeholder="Address Line 1" required='' style="width:300px; height=30px font-size:22px;">
+              <input type="text" name="address" id="address_1" placeholder="Address Line 1" required='' style="width:300px; height=30px font-size:22px;">
+              <!--label-->
               <label for="address2" class="add2">Address Line 2:</label>
               <!--text  box-->
-              <input type="text" name="addx" id="address_2" placeholder="Address Line 2" required='' style="width:300px; height=30px font-size:22px;">
+              <input type="text" name="addresstwo" id="address_2" placeholder="Address Line 2" required='' style="width:300px; height=30px font-size:22px;">
+              <!--label-->
               <label for="city" class="city">City:</label>
               <!--text  box-->
               <input type="text" name="city" id="city1" placeholder="City" required='' style="width:300px; height=30px font-size:22px;">
+              <!--label-->
               <label for="postcode" class="postcode">Post Code:</label>
               <!--text  box-->
               <input type="text" name="post" id="post1" placeholder="Post Code" required='' style="width:300px; height=30px font-size:22px;">
+              <!--label-->
               <label for="country" class="country">Country:</label>
               <!--text  box-->
               <input type="text" name="country" id="country1" placeholder="Country" required='' style="width:300px; height=30px font-size:22px;">
