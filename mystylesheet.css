@@ -166,3 +166,11 @@ body {
     background-size:cover;
     font-size:30px;
 }
+/*adjusting the position of the linkedin photo*/
+.link{
+    position:absolute;
+    transition: .5s ease;
+    top:162%;
+    left:45%;
+    cursor:pointer;
+}
