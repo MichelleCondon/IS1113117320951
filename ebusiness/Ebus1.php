@@ -101,25 +101,24 @@ session_start();
                 <!--text box-->
                 <input type="text" id="total" value="0.00" name="total" readonly/>
               </label>
-    
-              <br/>
-              <br/>
+              <p>*Please click calculate cost then add to cart</p>
               <!--Add to shopping cart button-->
               <button type= "submit" id="btnProceed" class="cart" disabled>Add to Shopping Cart</button>
             
             </form>
             
-            <br/>
             <!--Buttons to calculate and navigate-->
             <!--calls the function calcSub()-->
             <button onClick="calcSub()" class="calculate">Calculate Cost</button>
             <a href= "Ebus1.php"><button class="clear">Clear Choice</button></a>
+            </center>
+            <!--Navigational button-->
+            <a href= "/homepage.html"><button class="exit">Exit</button></a>
             
             <?php
             //Set session variables
             $_SESSION["total"] - $_POST["total"]
             ?>
             <!--closing tags-->
-    </center>
     </body>
 </html>

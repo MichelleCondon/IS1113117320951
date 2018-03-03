@@ -9,7 +9,7 @@
 /*adding a plain background*/
     body {
      background-image: url("http://eskipaper.com/images/blurred-background-1.jpg");
-     background-repeat:no-repeat;
+     background-repeat:repeat;
      background-size:cover;
      font-size:25px;
 }
@@ -133,6 +133,13 @@ li a {
 .cartebus3{
     margin-right:50%;
 }
+.printer{
+     position:absolute;
+    transition: .5s ease;
+    top:5%;
+    left:84%;
+    cursor:pointer;
+}
 /*changing button size colour and position*/
 .cancel{
     float:left;
@@ -149,44 +156,17 @@ li a {
     width:65px;
     height:35px;
 }
-
-#cardnumber{
-    font-size: 18pt;
-    height: 20px;
-    width : 300px
-
-}
-#cardname{
-   font-size: 18pt;
-    height: 20px;
-    width : 300px;
-}
-#security_code{
-    font-size: 18pt;
-    height: 20px;
-    width : 300px;
-}
-#user_pin{
-    font-size: 18pt;
-    height: 20px;
-    width : 300px;
-}
-#name{
-    font-size: 18pt;
-    height: 25px;
-    width : 300px;
-}
-#email{
-    font-size: 18pt;
-    height: 25px;
-    width : 300px;
-}
 /*Aligns buttons, curves edges and changes background colour and text colour*/
     .determine{
     text-align:center;
     color:white;
     background-color:#0099ff;
     border-radius: 8px;
+    position:absolute;
+    transition: .5s ease;
+    top:119%;
+    left:50%;
+    cursor:pointer;
 }
 /*Aligns buttons, curves edges and changes background colour and text colour*/
     .pro{
@@ -194,4 +174,164 @@ li a {
     color:white;
     background-color:#156b1b;
     border-radius: 8px;
+    position:absolute;
+    transition: .5s ease;
+    top:124%;
+    left:46.5%;
+    cursor:pointer;
+}
+.exit{
+    color:white;
+    background-color:#2791b5;
+    width:70px;
+    height:20px;
+    border-radius:8px;
+    position:absolute;
+    transition: .5s ease;
+    top:124%;
+    left:1%;
+    cursor:pointer;
+}
+#email{
+    border-radius:8px;
+    position:absolute;
+    transition: .5s ease;
+    top:63%;
+    left:45%;
+}
+.lemail{
+    position:absolute;
+    transition: .5s ease;
+    top:61.5%;
+    left:38%;
+}
+#cardnumber{
+    border-radius:8px;
+    position:absolute;
+    transition: .5s ease;
+    top:38%;
+    left:45%;
+}
+#security_code{
+    border-radius:8px;
+    position:absolute;
+    transition: .5s ease;
+    top:48%;
+    left:45%;
+}
+#user_pin{
+    border-radius:8px;
+    position:absolute;
+    transition: .5s ease;
+    top:53%;
+    left:45%;
+}
+#cardname{
+    border-radius:8px;
+    position:absolute;
+    transition: .5s ease;
+    top:43%;
+    left:45%;
+}
+#name{
+    border-radius:8px;
+    position:absolute;
+    transition: .5s ease;
+    top:58%;
+    left:45%;
+}
+.lcardnumber{
+    position:absolute;
+    transition: .5s ease;
+    top:37%;
+    left:31.5%;
+}
+.lcardname{
+    position:absolute;
+    transition: .5s ease;
+    top:42%;
+    left:31%;
+}
+.lcvc{
+    position:absolute;
+    transition: .5s ease;
+    top:47%;
+    left:31.5%;
+}
+.lpin{
+    position:absolute;
+    transition: .5s ease;
+    top:52%;
+    left:39.5%;
+}
+.lname{
+    position:absolute;
+    transition: .5s ease;
+    top:57%;
+    left:38%;
+}
+#address_1{
+    border-radius:8px;
+    position:absolute;
+    transition: .5s ease;
+    top:76%;
+    left:45%;
+}
+.add1{
+    position:absolute;
+    transition: .5s ease;
+    top:75%;
+    left:30%;
+}
+#address_2{
+    border-radius:8px;
+    position:absolute;
+    transition: .5s ease;
+    top:8%2;
+    left:45%;
+}
+.add2{
+    position:absolute;
+    transition: .5s ease;
+    top:80%;
+    left:30%;
+}
+#city1{
+    border-radius:8px;
+    position:absolute;
+    transition: .5s ease;
+    top:90%;
+    left:45%;
+}
+.city{
+    position:absolute;
+    transition: .5s ease;
+    top:90%;
+    left:38.5%;
+}
+#post1{
+    border-radius:8px;
+    position:absolute;
+    transition: .5s ease;
+    top:85%;
+    left:45%;
+}
+.postcode{
+    position:absolute;
+    transition: .5s ease;
+    top:85%;
+    left:34%;
+}
+#country1{
+    border-radius:8px;
+    position:absolute;
+    transition: .5s ease;
+    top:95.5%;
+    left:45%;
+}
+.country{
+    position:absolute;
+    transition: .5s ease;
+    top:95%;
+    left:35.5%;
 }

@@ -22,7 +22,7 @@ function validateDetails(){
     //if the card number is empty an alert pops up
     cardnumber = document.getElementById("cardnumber").value;
      if (cardnumber == "") {
-        alert("Please enter your card details");
+        alert("Please enter your card number");
     }
     //if the pin is smaller than 16 digits an alert pops up
     else if (String(cardnumber).length < 16){
@@ -35,7 +35,7 @@ function validateDetails(){
     //if the card name is empty an alert pops up
      cardname = document.getElementById("cardname").value;
      if (cardname == "") {
-        alert("Please enter your card details");
+        alert("Please enter your card name");
     }
     //if the pin is larger than 20 digits an alert pops up
     else if (String(cardname).length > 20){
@@ -48,16 +48,15 @@ function validateDetails(){
     }
     //if the pin is smaller than 3 digits an alert pops up
     else if (String(cvc).length < 3){
-        alert("Please make sure your PIN is accurate");
+        alert("Your CVC should be 3 digits, please try again");
     }
     //if the pin is larger than 3 digits an alert pops up
     else if (String(cvc).length > 3){
-        alert("Please make sure your PIN is accurate");
+        alert("Your CVC should be 3 digits, please try again");
     }
     else {
         enablebtnPurchase();
     }//end function
-
 function enablebtnPurchase(){
      $('#btnPurchase').prop('disabled', false);
 } //end function

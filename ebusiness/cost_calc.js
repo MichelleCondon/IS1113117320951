@@ -29,7 +29,6 @@ function calcDisVatTotal(parmSubTotal){ // parmSubTotal receives the sub total
     vatAmt = (subTotal-discountAmt) * 0.10; //calculate the vat
     totalPrice = (subTotal - discountAmt) + vatAmt; //calculates total price
    
-   
     display(subTotal,discountAmt,vatAmt,totalPrice); //calls the function display and passes it 4 arguments
 }//end function
 function display(parm1,parm2,parm3,parm4){ //function receives the value of the 4 arguments passed
@@ -44,7 +43,6 @@ function enablebtnProceed()
 {
     $('#btnProceed').prop('disabled', false); //find button proceed go into properties and enable button
 }//end function
-
 function disablebtnProceed()
 {
     $('#btnProceed').prop('disabled', true);//find button proceed go into properties and disable button
