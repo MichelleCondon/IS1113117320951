@@ -21,7 +21,7 @@ session_start();
         </div>
     <ul>
         <!--printer image-->
-    <li class="printer"><img src="http://www.clipartbest.com/cliparts/6ni/Xan/6niXan9cB.png" onclick="alert('You receipt has been sent to your printer')" width="100" height="100"></li>
+    <li class="printer"><img src="http://www.clipartbest.com/cliparts/6ni/Xan/6niXan9cB.png" onclick="alert('Your receipt has been sent to your printer')" width="100" height="100"></li>
         <!--shopping cart image-->
     <li class="cartebus3"><a href="Ebus1.php"><img src="http://www.free-icons-download.net/images/shopping-cart-logo-icon-70706.png" width="100" height="100"></a></li>
      </ul>
