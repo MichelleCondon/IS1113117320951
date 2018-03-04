@@ -167,6 +167,10 @@ li a {
     background-color:#2791b5;
     width:65px;
     height:35px;
+    position:absolute;
+    transition: .5s ease;
+    top:182%;
+    left:93%;
 }
 /*Aligns buttons, curves edges and changes background colour and text colour*/
     .determine{
