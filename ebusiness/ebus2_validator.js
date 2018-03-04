@@ -19,6 +19,7 @@ function validateDetails(){
     else if (String(pin).length > 4){
         alert("Incorrect pin, please try again");
     }
+    //nested if statement
     //if the card number is empty an alert pops up
     cardnumber = document.getElementById("cardnumber").value;
      if (cardnumber == "") {
@@ -32,6 +33,7 @@ function validateDetails(){
      else if (String(cardnumber).length > 16){
         alert("Invalid Card Number, please try again");
     }
+    //nested if statement
     //if the card name is empty an alert pops up
      cardname = document.getElementById("cardname").value;
      if (cardname == "") {
@@ -41,6 +43,7 @@ function validateDetails(){
     else if (String(cardname).length > 20){
         alert("Please make sure your name is correct");
     }
+    //nested if statement
     //if the security code is empty an alert pops up
      cvc = document.getElementById("security_code").value;
      if (cvc == "") {
@@ -56,7 +59,7 @@ function validateDetails(){
     }
     else {
         enablebtnPurchase();
-    }//end function
+    }//end if & end of function
 function enablebtnPurchase(){
      $('#btnPurchase').prop('disabled', false);
 } //end function

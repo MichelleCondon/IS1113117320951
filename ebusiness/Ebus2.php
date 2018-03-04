@@ -64,10 +64,12 @@ session_start();
               <label for="user_pin" class="lpin">PIN:</label>
               <!--text box-->
               <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4" required='' style="width:300px; height=30px font-size:22px;">
+              <!--javascript function-->
+              <!--code obtained from https://www.w3schools.com/jsref/jsref_isnan.asp-->
               <script>
              function myFunction() {
              var x;
-            // Get the value of the input field with id="numb"
+            // Get the value of the input field with id="user_pin"
             x = document.getElementById("user_pin").value;
             // If x is Not a Number
             if (isNaN(x)) {
@@ -89,6 +91,7 @@ session_start();
               <!--text box-->
               <input type="email" name="email" id="email" placeholder="Email" required='' style="width:300px; height=30px font-size:22px;">
               <br/>
+              <!--heading-->
               <h4><strong>Billing address</strong></h4>
               <!--label-->
               <label for="address1" class="add1">Address Line 1:</label>

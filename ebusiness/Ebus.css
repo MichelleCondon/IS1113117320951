@@ -197,6 +197,7 @@ li a {
     left:1%;
     cursor:pointer;
 }
+/*adjusting the email text box position*/
 #email{
     border-radius:8px;
     position:absolute;
@@ -211,6 +212,7 @@ li a {
     top:61.5%;
     left:38%;
 }
+/*adjusting the card number text box position*/
 #cardnumber{
     border-radius:8px;
     position:absolute;
@@ -218,6 +220,7 @@ li a {
     top:38%;
     left:45%;
 }
+/*adjusting the cvc text box position*/
 #security_code{
     border-radius:8px;
     position:absolute;
@@ -225,6 +228,7 @@ li a {
     top:48%;
     left:45%;
 }
+/*adjusting the pin text box position*/
 #user_pin{
     border-radius:8px;
     position:absolute;
@@ -232,6 +236,7 @@ li a {
     top:53%;
     left:45%;
 }
+/*adjusting the card name text box position*/
 #cardname{
     border-radius:8px;
     position:absolute;
@@ -239,6 +244,7 @@ li a {
     top:43%;
     left:45%;
 }
+/*adjusting the name text box position*/
 #name{
     border-radius:8px;
     position:absolute;
@@ -281,6 +287,7 @@ li a {
     top:57%;
     left:38%;
 }
+/*adjusting the address 1 text box position*/
 #address_1{
     border-radius:8px;
     position:absolute;
@@ -295,6 +302,7 @@ li a {
     top:75%;
     left:30%;
 }
+/*adjusting the address 2 text box position*/
 #address_2{
     border-radius:8px;
     position:absolute;
@@ -309,6 +317,7 @@ li a {
     top:80%;
     left:30%;
 }
+/*adjusting the city text box position*/
 #city1{
     border-radius:8px;
     position:absolute;
@@ -323,6 +332,7 @@ li a {
     top:90%;
     left:38.5%;
 }
+/*adjusting the post code text box position*/
 #post1{
     border-radius:8px;
     position:absolute;
@@ -337,7 +347,7 @@ li a {
     top:85%;
     left:34%;
 }
-/*adjusting the country text box*/
+/*adjusting the country text box position*/
 #country1{
     border-radius:8px;
     position:absolute;
