@@ -1,8 +1,3 @@
-<?php 
-//Start the session
-session_start();
-?>
-
 <!DOCTYPE html>
 <!--opening tags-->
 <html>
@@ -114,10 +109,6 @@ session_start();
             </center>
             <!--Navigational button-->
             <a href= "/homepage.html"><button class="exit">Exit</button></a>
-          <?php
-            //Set session variables
-            $_SESSION["total"] - $_POST["total"]
-            ?>
             <!--closing tags-->
     </body>
 </html>
