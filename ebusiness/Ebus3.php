@@ -74,6 +74,8 @@ session_start();
         <br/>
         <br/>
         <br/>
+        <!--navigation button-->
+        <a href= "/homepage.html"><button class="home">Home</button></a>
         <!--adding a dividing line on the page-->
         <hr>
         <!--paragrpahs-->

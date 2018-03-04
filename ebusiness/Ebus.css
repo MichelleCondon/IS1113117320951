@@ -160,6 +160,14 @@ li a {
     width:65px;
     height:35px;
 }
+/*changing button size colour and position*/
+.home{
+    float:right;
+    color:white;
+    background-color:#2791b5;
+    width:65px;
+    height:35px;
+}
 /*Aligns buttons, curves edges and changes background colour and text colour*/
     .determine{
     text-align:center;

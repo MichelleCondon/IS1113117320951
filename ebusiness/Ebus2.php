@@ -129,7 +129,7 @@ session_start();
                   </form>
             <!--calls the function validate details when clicked-->
             <button onClick="validateDetails(); myFunction()" class="determine">Validate</button>
-            <button class="exit">Previous</button>   
+            <a href= "Ebus1.php"><button class="exit">Previous</button></a>
             <script type="text/javascript" src="ebus2_validator.js"></script>
            
             <?php
