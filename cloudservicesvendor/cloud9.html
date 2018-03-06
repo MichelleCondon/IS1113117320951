@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <!--opening tags-->
-<html>
+<html class="body1">
     <head>
+        <meta charset="UTF-8">
         <!--Page title-->
         <title>Cloud 9</title>
         <link rel="stylesheet" href="cloudservice.css" type="text/css"/>
@@ -15,13 +16,11 @@
         <a href= "SaaS.html">Salesforce</a>
         <a href= "../ebusiness/Ebus1.php">Products</a>
         </div>
-        <!--centers all elements in the tags-->
-        <center>
         <br/>
         <!--allowing access to a website by clicking the image-->
         <a href="https://c9.io/login">
         <!--Adding an image-->
-        <img src="https://static.c9.io/nc-3.1.4109-2ffb85e2-wf/static/plugins/c9.profile/static/images/cloud9-logo.svg" alt="cloud 9 logo" align="middle" class="cloud9image"></a>
+        <img src="https://static.c9.io/nc-3.1.4109-2ffb85e2-wf/static/plugins/c9.profile/static/images/cloud9-logo.svg" alt="cloud 9 logo" class="cloud9image"></a>
         <br/>
         <br/>
         <!--heading-->
@@ -31,27 +30,33 @@
         best example of this. PaaS is rapidly growing particularly amongst developers as a way to code test and deploy their applications instead of dealing with
         hardware-oriented tasks such as managing security patches and operating system updates. In addition to the managed infrastructure, PaaS products include APIs and 
         tools that enable developers to use features such as traffic splitting, monitoring, and version control systems.</p>
-        </br>
+        <br>
         <p>Technical advantages of PaaS:</p>
-        <!--ordered lists-->
-        <li>Expertise</li>
-        <li>Speed</li>
-        <li>Cost</li>
-        <li>Scale</li>
+        <!--unordered lists-->
+        <ul style="list-style-type:none">
+        <li>- Expertise</li>
+        <li>- Speed</li>
+        <li>- Cost</li>
+        <li>- Scale</li>
+        </ul>
         <p>PaaS allows quick and efficient app development as the developer is no longer responsible for installing the hardware and software and
         maintaining the system. PaaS cuts development costs as theres no need to build anything before the developer begins.</p>
-        </br>
+        <br>
         <p>Advantages of Platform as a Service</p>
-        <!--ordered lists-->
-        <li>Easy to maintain</li>
-        <li>Easy integration with current systems</li>
-        <li>Real time information</li>
-        <li>Shared Insights</li>
-    </center>
-    
+        <!--unordered lists-->
+        <ul style="list-style-type:none">
+        <li>- Easy to maintain</li>
+        <li>- Easy integration with current systems</li>
+        <li>- Real time information</li>
+        <li>- Shared Insights</li>
+        </ul>
              <!--Navigational button-->
-             <a href= "SaaS.html"><button class="button">Previous</button></a>
-              <a href= "amazon.html"><button class="button1">Next</button></a>
+             <form style="display: inline" action="SaaS.html" method="get">
+              <button class="button">Previous</button>
+            </form>
+             <form style="display: inline" action="amazon.html" method="get">
+              <button class="button1">Next</button>
+            </form>
               <!--closing tags-->
     </body>
 </html>
