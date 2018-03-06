@@ -5,7 +5,7 @@ session_start();
 
 <!DOCTYPE html>
 <!--opening tags-->
-<html>
+<html class="body1">
     <head>
          <!--Page Title-->
         <title>Payment</title>
@@ -17,8 +17,6 @@ session_start();
     </head>
     
     <body>
-        <!--centers all text and images within tags-->
-        <center>
         <header>
             <!--heading-->
             <h4>Please enter your payment details</h4>
@@ -45,25 +43,25 @@ session_start();
              <!--used to display session variables on ebus 3-->
             <form action="Ebus3.php"  METHOD="POST">
               <!--card number label-->
-              <center>
+              
               <label for="cardnumber" class="lcardnumber">Card Number:</label>
               <!--text box-->
-              <input type="number" name="cardnumber" id="cardnumber" placeholder="Card Number" maxlength="16" required='' style="width:300px; height:30px font-size:22px;">
+              <input type="number" name="cardnumber" id="cardnumber" placeholder="Card Number" required='' style="width:300px; height:30px; font-size:22px;">
               <br/>
               <!--card name label-->
               <label for="cardname" class="lcardname">Name on Card:</label>
               <!--text box-->
-              <input type="text" name="cardname" id="cardname" placeholder="Name on Card" maxlength="20" required='' style="width:300px; height:30px font-size:22px;">
+              <input type="text" name="cardname" id="cardname" placeholder="Name on Card" maxlength="20" required='' style="width:300px; height:30px; font-size:22px;">
               <br/>
               <!--security card label-->
-              <label name="cvc" class="lcvc">Security Code:</label>
+              <label class="lcvc">Security Code:</label>
               <!--text box-->
-              <input type="number" name="cvc" id="security_code" placeholder="Security Code" required='' style="width:300px; height:50px font-size:40px;">
+              <input type="number" name="cvc" id="security_code" placeholder="Security Code" required='' style="width:300px; height:50px; font-size:40px;">
               <br/>
               <!--pin label-->
               <label for="user_pin" class="lpin">PIN:</label>
               <!--text box-->
-              <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4" required='' style="width:300px; height:30px font-size:22px;">
+              <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4" required='' style="width:300px; height:30px; font-size:22px;">
               <!--javascript function-->
               <!--code obtained from https://www.w3schools.com/jsref/jsref_isnan.asp-->
               <script>
@@ -94,7 +92,7 @@ session_start();
               <!--heading-->
               <h4><strong>Billing address</strong></h4>
               <!--label-->
-              <label name="address1" class="add1">Address Line 1:</label>
+              <label  class="add1">Address Line 1:</label>
               <!--text  box-->
               <input type="text" name="address" id="address_1" placeholder="Address Line 1" required='' style="width:300px; height:30px; font-size:22px;">
               <!--label-->
@@ -102,19 +100,19 @@ session_start();
               <!--text  box-->
               <input type="text" name="addresstwo" id="address_2" placeholder="Address Line 2" required='' style="width:300px; height:30px; font-size:22px;">
               <!--label-->
-              <label for="city" class="city">City:</label>
+              <label class="city">City:</label>
               <!--text  box-->
               <input type="text" name="city" id="city1" placeholder="City" required='' style="width:300px; height:30px; font-size:22px;">
               <!--label-->
-              <label for="postcode" class="postcode">Post Code:</label>
+              <label class="postcode">Post Code:</label>
               <!--text  box-->
               <input type="text" name="post" id="post1" placeholder="Post Code" required='' style="width:300px; height:30px; font-size:22px;">
               <!--label-->
-              <label name="country" class="country">Country:</label>
+              <label class="country">Country:</label>
               <!--text  box-->
               <input type="text" name="country" id="country1" placeholder="Country" required='' style="width:300px; height:30px; font-size:22px;">
               
-             </center>
+             
              <br/>
              <br/>
              <br/>
@@ -139,6 +137,6 @@ session_start();
            $_SESSION["total"]= $_POST["total"];
             ?>
             <!--closing tags-->
-            </center>
+            
      </body>
 </html>
