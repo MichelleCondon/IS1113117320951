@@ -167,7 +167,7 @@ body {
 .link{
     position:absolute;
     transition: .5s ease;
-    top:148%;
+    top:138%;
     left:45%;
     cursor:pointer;
 }
