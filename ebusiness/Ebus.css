@@ -205,8 +205,8 @@ li a {
     border-radius:8px;
     position:absolute;
     transition: .5s ease;
-    top:124%;
-    left:1%;
+    top: 100%;
+    left: 1%;
     cursor:pointer;
 }
 /*adjusting the email text box position*/

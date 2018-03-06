@@ -38,7 +38,7 @@
               <!--Cloud 9 label-->
               <label for="cloud 9">
                 <!--radio button-->
-                <input type="radio" id="cloud9" name="product" checked onClick="disablebtnProceed()"/>
+                <input type="radio" id="cloud 9" name="product" checked onClick="disablebtnProceed()"/>
                   Cloud 9 @ $200
               </label>
               

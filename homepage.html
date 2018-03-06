@@ -2,29 +2,29 @@
 <!--opening tags-->
 <html lang = "en">  
     <head>  
+        <meta charset="UTF-8">
         <!--Page title-->
         <title>117320951</title>
         <!--link to stylesheet-->
         <link rel="stylesheet" href="mystylesheet.css" type="text/css"/>
     </head>
-    <body>
-    <!--centers heading-->
-    <center>
-        <!--Heading-->
-        <h1 class="mainheading">117320951 - IS1113 Project</h1>
-    </center>
+    <body class="body1">
+      <!--Heading-->
+      <h1 class="mainheading">117320951 - IS1113 Project</h1>
       <!--allowing access to a website by clicking the icon-->
       <a href= "cv_page1.html">
       <!--placing images in divs-->
       <div class="img" style="background-image:url('https://static1.squarespace.com/static/53ca5fdfe4b00a460e55a6b0/t/56bb251127d4bd8dbfa30d8c/1455105370943/cv-button.jpg?format=300w');"></div>
       <!--linking buttons to other pages-->
       <a href="cv_page1.html"><button class="cvbutton">Curriculum Vitae</button></a>
+      
       <!--allowing access to a website by clicking the icon-->
       <a href= "interests/sports.html">
       <!--placing images in divs-->
       <div class="img" style="background-image:url('http://summation.typepad.com/.a/6a00d8345189aa69e20168eb23358c970c-320wi');"></div>
       <!--linking buttons to other pages-->
       <a href="interests/sports.html"><button class= "interestsbutton">Interests</button></a>
+      
       <!--allowing access to a website by clicking the icon-->
       <a href= "cloudservicesvendor/cloudservice.html">
       <!--placing images in divs-->
@@ -48,7 +48,9 @@
       <!--placing images in divs-->
       <div class="img" style="background-image:url('https://kafka-summit.org/wp-content/uploads/2016/10/Heroku-1-300x250.jpg');"></div>
       <!--linking buttons to other pages-->
-      <a href="https://is1113117320951.herokuapp.com/"><button class= "herokubutton">Heroku App</button></a>
+      <form style="display: inline" action="https://is1113117320951.herokuapp.com/" method="get">
+              <button class="herokubutton">Heroku App</button>
+        </form>
       <!--closing tags-->
     </body>
 </html> 
