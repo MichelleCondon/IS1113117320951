@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--opening tags-->
-<html>
+<html class="body1">
     <head>
         <!--Page Title-->
         <title>Products</title>
@@ -15,10 +15,9 @@
       <!--navigation bar links-->
     <div class="topnav">
         <a href= "../homepage.html">Home</a>
-        <a href= "../Cloud Services Vendor/cloudservice.html">Product Info</a>
+        <a href= "../cloudservicesvendor/cloudservice.html">Product Info</a>
     </div>
-      <!--centers all elements within the tags-->
-        <center>
+
         <header>
             <!--Page Heading-->
             <h4 class="heading">Select a Product</h4>
@@ -39,7 +38,7 @@
               <!--Cloud 9 label-->
               <label for="cloud 9">
                 <!--radio button-->
-                <input type="radio" id="cloud 9" name="product" checked onClick="disablebtnProceed()"/>
+                <input type="radio" id="cloud9" name="product" checked onClick="disablebtnProceed()"/>
                   Cloud 9 @ $200
               </label>
               
@@ -105,10 +104,14 @@
             <!--Buttons to calculate and navigate-->
             <!--calls the function calcSub()-->
             <button onClick="calcSub()" class="calculate">Calculate Cost</button>
-            <a href= "Ebus1.php"><button class="clear">Clear Choice</button></a>
-            </center>
+            <form style="display: inline" action="Ebus1.php" method="get">
+              <button class="clear">Clear Choice</button>
+            </form>
+            
             <!--Navigational button-->
-            <a href= "/homepage.html"><button class="exit">Exit</button></a>
+            <form style="display: inline" action="/homepage.html" method="get">
+              <button class="exit">Exit</button>
+            </form>
             <!--closing tags-->
     </body>
 </html>
