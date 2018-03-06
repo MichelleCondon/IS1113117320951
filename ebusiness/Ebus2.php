@@ -111,14 +111,14 @@ session_start();
               <label class="country">Country:</label>
               <!--text  box-->
               <input type="text" name="country" id="country1" placeholder="Country" required='' style="width:300px; height:20px; font-size:22px;">
-              
-             
              <br/>
              <br/>
              <br/>
              <br/>
              <br/>
              <!--checkbox-->
+             <br>
+             <br>
              <input type="checkbox"  name="terms" value="terms" checked> By continuing it means you have agreed to our <a href= "terms.html" onclick="alert('Please note that any information already entered will not be saved when you leave this page')">terms and conditions</a><br>
              <p>*Please click validate before proceeding with purchase</p>
             <!--proceed button-->

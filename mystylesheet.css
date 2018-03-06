@@ -72,13 +72,14 @@ font-size:25px;
 }
 /*adjusting button size, edges and colour*/
 .cloudservicesbutton {
-    background:#216f8c; 
+    background:#173c66;  
     color:white;
-    border-radius: 12px;
     position:absolute;
+    border-radius: 12px;
     transition: .5s ease;
-    top:184%;
-    left:17%;
+    top: 65%;
+    left: 71%;
+    cursor:pointer;
 }
 /*adjusting button size, edges and colour*/
 .interestsbutton {
@@ -87,23 +88,27 @@ font-size:25px;
     border-radius: 12px;
     position:absolute;
     transition: .5s ease;
-    top:98%;
-    left:64%;
+    top:65%;
+    left:41%;
+    cursor:pointer;
 }
 /*adjusting button size, edges, position and colour*/
 .cvbutton {
+    background:#35a373;  
+    color:white;
+    border-radius: 12px;
     position:absolute;
     transition: .5s ease;
-    top:5%;
-    left:84%;
+    top:65%;
+    left:8.5%;
     cursor:pointer;
 }
 /*adjusting all images in divs*/
 .img {
     position: relative;
     float: left;
-    width:  400px;
-    height: 400px;
+    width:  200px;
+    height: 200px;
     margin-bottom:10%;
     margin-right:10%;
     margin-left:5%;
@@ -162,4 +167,41 @@ body {
     top:162%;
     left:45%;
     cursor:pointer;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
 }
