@@ -39,14 +39,6 @@ font-size:25px;
     height:10%;
 }
 /*centers the image and adjusts the height and width*/
-.lfcrest {
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    width:18%;
-    height:10%;
-}
-/*centers the image and adjusts the height and width*/
 .ucccrest {
     display:block;
     margin-left:auto;
@@ -165,6 +157,9 @@ body {
     background-repeat:no-repeat;
     background-size:cover;
     font-size:30px;
+    text-align:center;
+    margin-left:auto; 
+    margin-right:auto;
 }
 /*adjusting the position of the linkedin photo*/
 .link{
