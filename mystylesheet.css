@@ -77,8 +77,8 @@ font-size:25px;
     position:absolute;
     border-radius: 12px;
     transition: .5s ease;
-    top: 65%;
-    left: 71%;
+    top: 60%;
+    left: 68%;
     cursor:pointer;
 }
 /*adjusting button size, edges and colour*/
@@ -88,8 +88,8 @@ font-size:25px;
     border-radius: 12px;
     position:absolute;
     transition: .5s ease;
-    top:65%;
-    left:41%;
+    top:60%;
+    left:38%;
     cursor:pointer;
 }
 /*adjusting button size, edges, position and colour*/
@@ -99,7 +99,7 @@ font-size:25px;
     border-radius: 12px;
     position:absolute;
     transition: .5s ease;
-    top:65%;
+    top:60%;
     left:8.5%;
     cursor:pointer;
 }
