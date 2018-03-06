@@ -96,7 +96,7 @@ session_start();
               <!--text  box-->
               <input type="text" name="address" id="address_1" placeholder="Address Line 1" required='' style="width:300px; height:30px; font-size:22px;">
               <!--label-->
-              <label name="address2" class="add2">Address Line 2:</label>
+              <label class="add2">Address Line 2:</label>
               <!--text  box-->
               <input type="text" name="addresstwo" id="address_2" placeholder="Address Line 2" required='' style="width:300px; height:30px; font-size:22px;">
               <!--label-->

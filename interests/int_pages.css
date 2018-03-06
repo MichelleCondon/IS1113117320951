@@ -202,4 +202,9 @@ h2{
     background-color:#41c681;
     border-radius: 8px;
 }
-
+.body1 {
+    font-size:30px;
+    text-align:center;
+    margin-left:auto; 
+    margin-right:auto;
+}
