@@ -56,7 +56,7 @@ session_start();
               <input type="text" name="cardname" id="cardname" placeholder="Name on Card" maxlength="20" required='' style="width:300px; height:30px font-size:22px;">
               <br/>
               <!--security card label-->
-              <label for="cvc" class="lcvc">Security Code:</label>
+              <label name="cvc" class="lcvc">Security Code:</label>
               <!--text box-->
               <input type="number" name="cvc" id="security_code" placeholder="Security Code" required='' style="width:300px; height:50px font-size:40px;">
               <br/>
@@ -83,36 +83,36 @@ session_start();
               <!--name label-->
               <label for="name" class="lname">Name:</label>
               <!--text  box-->
-              <input type="text" name="name" id="name" placeholder="Name" maxlength="20" required='' style="width:300px; height:30px font-size:22px;">
+              <input type="text" name="name" id="name" placeholder="Name" maxlength="20" required='' style="width:300px; height:30px; font-size:22px;">
               
               <br/>
               <!--email label-->
               <label for="email" class="lemail">Email:</label>
               <!--text box-->
-              <input type="email" name="email" id="email" placeholder="Email" required='' style="width:300px; height:30px font-size:22px;">
+              <input type="email" name="email" id="email" placeholder="Email" required='' style="width:300px; height:30px; font-size:22px;">
               <br/>
               <!--heading-->
               <h4><strong>Billing address</strong></h4>
               <!--label-->
-              <label for="address1" class="add1">Address Line 1:</label>
+              <label name="address1" class="add1">Address Line 1:</label>
               <!--text  box-->
-              <input type="text" name="address" id="address_1" placeholder="Address Line 1" required='' style="width:300px; height:30px font-size:22px;">
+              <input type="text" name="address" id="address_1" placeholder="Address Line 1" required='' style="width:300px; height:30px; font-size:22px;">
               <!--label-->
               <label name="address2" class="add2">Address Line 2:</label>
               <!--text  box-->
-              <input type="text" name="addresstwo" id="address_2" placeholder="Address Line 2" required='' style="width:300px; height:30px font-size:22px;">
+              <input type="text" name="addresstwo" id="address_2" placeholder="Address Line 2" required='' style="width:300px; height:30px; font-size:22px;">
               <!--label-->
-              <label name="city" class="city">City:</label>
+              <label for="city" class="city">City:</label>
               <!--text  box-->
-              <input type="text" name="city" id="city1" placeholder="City" required='' style="width:300px; height:30px font-size:22px;">
+              <input type="text" name="city" id="city1" placeholder="City" required='' style="width:300px; height:30px; font-size:22px;">
               <!--label-->
-              <label name="postcode" class="postcode">Post Code:</label>
+              <label for="postcode" class="postcode">Post Code:</label>
               <!--text  box-->
-              <input type="text" name="post" id="post1" placeholder="Post Code" required='' style="width:300px; height=30px font-size:22px;">
+              <input type="text" name="post" id="post1" placeholder="Post Code" required='' style="width:300px; height:30px; font-size:22px;">
               <!--label-->
-              <label nME="country" class="country">Country:</label>
+              <label name="country" class="country">Country:</label>
               <!--text  box-->
-              <input type="text" name="country" id="country1" placeholder="Country" required='' style="width:300px; height:30px font-size:22px;">
+              <input type="text" name="country" id="country1" placeholder="Country" required='' style="width:300px; height:30px; font-size:22px;">
               
              </center>
              <br/>
@@ -129,7 +129,9 @@ session_start();
                   </form>
             <!--calls the function validate details when clicked-->
             <button onClick="validateDetails(); myFunction()" class="determine">Validate</button>
-            <a href= "Ebus1.php"><button class="exit">Previous</button></a>
+            <form style="display: inline" action="Ebus1.php" method="get">
+              <button class="exit">Previous</button>
+            </form>
             <script type="text/javascript" src="ebus2_validator.js"></script>
            
             <?php
@@ -137,5 +139,6 @@ session_start();
            $_SESSION["total"]= $_POST["total"];
             ?>
             <!--closing tags-->
+            </center>
      </body>
 </html>
