@@ -83,19 +83,19 @@ font-size:25px;
     background:#216f8c; 
     color:white;
     border-radius: 12px;
-    position:relative;
+    position:absolute;
     transition: .5s ease;
-    top:182%;
-    left:16%;
+    top:184%;
+    left:17%;
 }
 /*adjusting button size, edges and colour*/
 .interestsbutton {
     background:#a5171e;  
     color:white;
     border-radius: 12px;
-    position:relative;
+    position:absolute;
     transition: .5s ease;
-    top:96%;
+    top:98%;
     left:64%;
 }
 /*adjusting button size, edges, position and colour*/
@@ -103,10 +103,10 @@ font-size:25px;
     background:#1e9676;  
     color:white;
     border-radius: 12px;
-    position:relative;
+    position:absolute;
     transition: .5s ease;
-    top:92%;
-    left:15%;
+    top:98%;
+    left:16%;
 }
 /*adjusting all images in divs*/
 .img {
@@ -127,9 +127,9 @@ font-size:25px;
     background:black;  
     color:white;
     border-radius: 12px;
-    position:relative;
+    position:absolute;
     transition: .5s ease;
-    top:268%;
+    top:270%;
     left:19%;
 }
 /*adjusting button size, edges, position and colour*/
@@ -137,9 +137,9 @@ font-size:25px;
     background:#62a3c4;  
     color:white;
     border-radius: 12px;
-    position:relative;
+    position:absolute;
     transition: .5s ease;
-    top:182%;
+    top:184%;
     left:64%;
 }
 /*adjusting button size, edges and colour*/
@@ -147,9 +147,9 @@ font-size:25px;
     background:#720b84; 
     color:white;
     border-radius: 12px;
-    position:relative;
+    position:absolute;
     transition: .5s ease;
-    top:268%;
+    top:270%;
     left:64%;
 }
 /*adding a plain background*/
