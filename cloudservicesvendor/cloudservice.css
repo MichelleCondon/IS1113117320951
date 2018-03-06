@@ -83,4 +83,9 @@ li{
 h3{
     font-size:30px;
 }
-
+.body1 {
+    font-size:30px;
+    text-align:center;
+    margin-left:auto; 
+    margin-right:auto;
+}
