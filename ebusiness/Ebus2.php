@@ -46,22 +46,22 @@ session_start();
               
               <label for="cardnumber" class="lcardnumber">Card Number:</label>
               <!--text box-->
-              <input type="number" name="cardnumber" id="cardnumber" placeholder="Card Number" required='' style="width:300px; height:30px; font-size:22px;">
+              <input type="number" name="cardnumber" id="cardnumber" placeholder="Card Number" required='' style="width:300px; height:20px; font-size:22px;">
               <br/>
               <!--card name label-->
               <label for="cardname" class="lcardname">Name on Card:</label>
               <!--text box-->
-              <input type="text" name="cardname" id="cardname" placeholder="Name on Card" maxlength="20" required='' style="width:300px; height:30px; font-size:22px;">
+              <input type="text" name="cardname" id="cardname" placeholder="Name on Card" maxlength="20" required='' style="width:300px; height:20px; font-size:22px;">
               <br/>
               <!--security card label-->
               <label class="lcvc">Security Code:</label>
               <!--text box-->
-              <input type="number" name="cvc" id="security_code" placeholder="Security Code" required='' style="width:300px; height:50px; font-size:40px;">
+              <input type="number" name="cvc" id="security_code" placeholder="Security Code" required='' style="width:300px; height:20px; font-size:22px;">
               <br/>
               <!--pin label-->
               <label for="user_pin" class="lpin">PIN:</label>
               <!--text box-->
-              <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4" required='' style="width:300px; height:30px; font-size:22px;">
+              <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4" required='' style="width:300px; height:20px; font-size:22px;">
               <!--javascript function-->
               <!--code obtained from https://www.w3schools.com/jsref/jsref_isnan.asp-->
               <script>
@@ -81,36 +81,36 @@ session_start();
               <!--name label-->
               <label for="name" class="lname">Name:</label>
               <!--text  box-->
-              <input type="text" name="name" id="name" placeholder="Name" maxlength="20" required='' style="width:300px; height:30px; font-size:22px;">
+              <input type="text" name="name" id="name" placeholder="Name" maxlength="20" required='' style="width:300px; height:20px; font-size:22px;">
               
               <br/>
               <!--email label-->
               <label for="email" class="lemail">Email:</label>
               <!--text box-->
-              <input type="email" name="email" id="email" placeholder="Email" required='' style="width:300px; height:30px; font-size:22px;">
+              <input type="email" name="email" id="email" placeholder="Email" required='' style="width:300px; height:20px; font-size:22px;">
               <br/>
               <!--heading-->
               <h4><strong>Billing address</strong></h4>
               <!--label-->
               <label  class="add1">Address Line 1:</label>
               <!--text  box-->
-              <input type="text" name="address" id="address_1" placeholder="Address Line 1" required='' style="width:300px; height:30px; font-size:22px;">
+              <input type="text" name="address" id="address_1" placeholder="Address Line 1" required='' style="width:300px; height:20px; font-size:22px;">
               <!--label-->
               <label class="add2">Address Line 2:</label>
               <!--text  box-->
-              <input type="text" name="addresstwo" id="address_2" placeholder="Address Line 2" required='' style="width:300px; height:30px; font-size:22px;">
+              <input type="text" name="addresstwo" id="address_2" placeholder="Address Line 2" required='' style="width:300px; height:20px; font-size:22px;">
               <!--label-->
               <label class="city">City:</label>
               <!--text  box-->
-              <input type="text" name="city" id="city1" placeholder="City" required='' style="width:300px; height:30px; font-size:22px;">
+              <input type="text" name="city" id="city1" placeholder="City" required='' style="width:300px; height:20px; font-size:22px;">
               <!--label-->
               <label class="postcode">Post Code:</label>
               <!--text  box-->
-              <input type="text" name="post" id="post1" placeholder="Post Code" required='' style="width:300px; height:30px; font-size:22px;">
+              <input type="text" name="post" id="post1" placeholder="Post Code" required='' style="width:300px; height:20px; font-size:22px;">
               <!--label-->
               <label class="country">Country:</label>
               <!--text  box-->
-              <input type="text" name="country" id="country1" placeholder="Country" required='' style="width:300px; height:30px; font-size:22px;">
+              <input type="text" name="country" id="country1" placeholder="Country" required='' style="width:300px; height:20px; font-size:22px;">
               
              
              <br/>
@@ -128,7 +128,7 @@ session_start();
             <!--calls the function validate details when clicked-->
             <button onClick="validateDetails(); myFunction()" class="determine">Validate</button>
             <form style="display: inline" action="Ebus1.php" method="get">
-              <button class="exit">Previous</button>
+              <button class="exit1">Previous</button>
             </form>
             <script type="text/javascript" src="ebus2_validator.js"></script>
            

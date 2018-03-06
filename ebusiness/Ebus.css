@@ -205,7 +205,19 @@ li a {
     border-radius:8px;
     position:absolute;
     transition: .5s ease;
-    top: 100%;
+    top: 119%;
+    left: 1%;
+    cursor:pointer;
+}
+.exit1{
+    color:white;
+    background-color:#2791b5;
+    width:70px;
+    height:20px;
+    border-radius:8px;
+    position:absolute;
+    transition: .5s ease;
+    top: 124%;
     left: 1%;
     cursor:pointer;
 }
@@ -319,7 +331,7 @@ li a {
     border-radius:8px;
     position:absolute;
     transition: .5s ease;
-    top:82%;
+    top:81%;
     left:45%;
 }
 /*adjusting the address labels position*/
@@ -334,7 +346,7 @@ li a {
     border-radius:8px;
     position:absolute;
     transition: .5s ease;
-    top:90%;
+    top:91%;
     left:45%;
 }
 /*adjusting the city labels position*/
@@ -349,7 +361,7 @@ li a {
     border-radius:8px;
     position:absolute;
     transition: .5s ease;
-    top:85%;
+    top:86%;
     left:45%;
 }
 /*adjusting the postcode labels position*/
@@ -364,7 +376,7 @@ li a {
     border-radius:8px;
     position:absolute;
     transition: .5s ease;
-    top:95.5%;
+    top:96.5%;
     left:45%;
 }
 /*adjusting the country labels position*/

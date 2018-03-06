@@ -92,13 +92,11 @@ font-size:25px;
 }
 /*adjusting button size, edges, position and colour*/
 .cvbutton {
-    background:#1e9676;  
-    color:white;
-    border-radius: 12px;
     position:absolute;
     transition: .5s ease;
-    top:98%;
-    left:16%;
+    top:5%;
+    left:84%;
+    cursor:pointer;
 }
 /*adjusting all images in divs*/
 .img {
@@ -116,13 +114,11 @@ font-size:25px;
 }
 /*adjusting button size, edges and colour*/
 .githubbutton {
-    background:black;  
-    color:white;
-    border-radius: 12px;
     position:absolute;
     transition: .5s ease;
-    top:270%;
-    left:19%;
+    top:100;
+    left:84%;
+    cursor:pointer;
 }
 /*adjusting button size, edges, position and colour*/
 .ebusbutton {
@@ -141,8 +137,8 @@ font-size:25px;
     border-radius: 12px;
     position:absolute;
     transition: .5s ease;
-    top: 270%;
-    left: 64%;
+    top:270%;
+    left:64%;
 }
 /*adding a plain background*/
 body {
@@ -153,6 +149,7 @@ body {
 }
 /*adding a plain background for the cv pages*/
 .body1 {
+
     font-size:30px;
     text-align:center;
     margin-left:auto; 
