@@ -2,6 +2,7 @@
 <!--opening tags-->
 <html class="body1">
     <head>
+        <meta charset="UTF-8">
         <!--Page Title-->
         <title>Products</title>
         <!--linking to stylesheet-->
@@ -105,12 +106,12 @@
             <!--calls the function calcSub()-->
             <button onClick="calcSub()" class="calculate">Calculate Cost</button>
             <form style="display: inline" action="Ebus1.php" method="get">
-              <button class="clear">Clear Choice</button>
+            <button class="clear">Clear Choice</button>
             </form>
             
             <!--Navigational button-->
             <form style="display: inline" action="/homepage.html" method="get">
-              <button class="exit">Exit</button>
+            <button class="exit">Exit</button>
             </form>
             <!--closing tags-->
     </body>
