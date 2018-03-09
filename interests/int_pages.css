@@ -202,6 +202,7 @@ h2{
     background-color:#41c681;
     border-radius: 8px;
 }
+/*aligns text centrally and adjusts font size*/
 .body1 {
     font-size:30px;
     text-align:center;

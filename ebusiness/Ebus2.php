@@ -7,6 +7,7 @@ session_start();
 <!--opening tags-->
 <html class="body1">
     <head>
+        <meta charset="UTF-8">
          <!--Page Title-->
         <title>Payment</title>
         <!--linking to stylesheet-->

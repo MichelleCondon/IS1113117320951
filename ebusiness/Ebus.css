@@ -209,6 +209,7 @@ li a {
     left: 1%;
     cursor:pointer;
 }
+/*Aligns buttons, curves edges and changes background colour and text colour*/
 .exit1{
     color:white;
     background-color:#2791b5;
