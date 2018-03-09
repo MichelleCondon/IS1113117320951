@@ -154,7 +154,7 @@ font-size:25px;
     position:absolute;
     transition: .5s ease;
     top:98%;
-    left:67%;
+    left:68%;
 }
 /*adding a plain background*/
 body {
@@ -175,7 +175,7 @@ body {
 .link{
     position:absolute;
     transition: .5s ease;
-    top:125%;
+    top:123%;
     left:45%;
     cursor:pointer;
 }

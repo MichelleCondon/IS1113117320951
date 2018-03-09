@@ -91,6 +91,9 @@ session_start();
               <br/>
               <br/>
               <br/>
+              <br/>
+              <br/>
+              <br/>
               <!--heading-->
               <h4><strong>Billing address</strong></h4>
               <!--label-->
@@ -121,6 +124,10 @@ session_start();
              <!--checkbox-->
              <br>
              <br>
+             <br/>
+             <br/>
+             <br/>
+             <br/>
              <input type="checkbox"  name="terms" value="terms" checked> By continuing it means you have agreed to our <a href= "terms.html" onclick="alert('Please note that any information already entered will not be saved when you leave this page')">terms and conditions</a><br>
              <p>*Please click validate before proceeding with purchase</p>
             <!--proceed button-->
