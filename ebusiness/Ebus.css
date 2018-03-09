@@ -180,7 +180,7 @@ li a {
     border-radius: 8px;
     position:absolute;
     transition: .5s ease;
-    top:119%;
+    top:112%;
     left:50%;
     cursor:pointer;
 }
@@ -192,7 +192,7 @@ li a {
     border-radius: 8px;
     position:absolute;
     transition: .5s ease;
-    top:128%;
+    top:115%;
     left:46.5%;
     cursor:pointer;
 }
@@ -205,7 +205,7 @@ li a {
     border-radius:8px;
     position:absolute;
     transition: .5s ease;
-    top: 110%;
+    top: 115%;
     left: 1%;
     cursor:pointer;
 }

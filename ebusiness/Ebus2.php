@@ -40,11 +40,9 @@ session_start();
                   <img src="https://blogs-images.forbes.com/mfonobongnsehe/files/2014/09/paypal.jpg" alt="paypal logo" width="100" height="70">
               </label>
               <br/>
-              <br/>
              <!--used to display session variables on ebus 3-->
             <form action="Ebus3.php"  METHOD="POST">
               <!--card number label-->
-              
               <label for="cardnumber" class="lcardnumber">Card Number:</label>
               <!--text box-->
               <input type="number" name="cardnumber" id="cardnumber" placeholder="Card Number" required='' style="width:300px; height:20px; font-size:22px;">
@@ -89,6 +87,9 @@ session_start();
               <label for="email" class="lemail">Email:</label>
               <!--text box-->
               <input type="email" name="email" id="email" placeholder="Email" required='' style="width:300px; height:20px; font-size:22px;">
+              <br/>
+              <br/>
+              <br/>
               <br/>
               <!--heading-->
               <h4><strong>Billing address</strong></h4>
