@@ -9,7 +9,7 @@
 /*adding a plain background*/
     body {
      background-image: url("http://eskipaper.com/images/blurred-background-1.jpg");
-     background-repeat: no-repeat;
+     background-repeat: repeat;
      background-size: cover;
      font-size:25px;
 }
