@@ -97,6 +97,7 @@ li a {
             }
 /*Aligns buttons, curves edges and changes background colour and text colour*/
 .infobutton{
+    float:left;
     color:white;
     background-color:#2791b5;
     width:80px;

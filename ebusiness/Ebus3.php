@@ -73,7 +73,7 @@ session_start();
         <br/>
         <!--navigation button-->
         <form style="display: inline" action="/homepage.html" method="get">
-              <button class="home">Home</button>
+              <button class="home3">Home</button>
             </form>
         <!--adding a dividing line on the page-->
         <hr>
