@@ -9,7 +9,7 @@
 /*adding a plain background*/
     body {
      background-image: url("http://eskipaper.com/images/blurred-background-1.jpg");
-     background-repeat:repeat;
+     background-repeat:no-repeat;
      background-size:cover;
      font-size:25px;
 }
@@ -182,7 +182,7 @@ li a {
     height:35px;
     position:absolute;
     transition: .5s ease;
-    top:163%;
+    top:161%;
     left:93%;
 }
 /*Aligns buttons, curves edges and changes background colour and text colour*/
@@ -218,7 +218,7 @@ li a {
     border-radius:8px;
     position:absolute;
     transition: .5s ease;
-    top: 88%;
+    top: 85%;
     left: 1%;
     cursor:pointer;
 }
